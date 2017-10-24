@@ -193,13 +193,14 @@
       </li>
       <li>
         The <pkg>drake</pkg> package is an R-focused reproducible build system.
-        Similarly to <a href="https://www.gnu.org/software/make">Make</a>, it 
-        arranges the intermediate steps of a workflow and executes them in parallelizable stages. 
-        With three alternative backends
-        (powered by <code>parallel::mclapply()</code>, <code>parallel::parLapply()</code>,
-        and <a href="https://www.gnu.org/software/make">Makefiles</a>, respectivly)
-        drake supports implicit parallelism both for low-overhead single-node 
-        applications and for true distributed computing workloads.
+        Similarly to <a href="https://www.gnu.org/software/make">Make</a>, drake 
+        arranges the intermediate steps of a workflow and executes them in parallelizable
+        stages. Drake supports an full arsenal of parallel backends
+        ranging from local multicore computing to serious distributed computing
+        on clusters and formal job schedulers. Backends draw from the
+        <code>parallel</code>, <code>future</code>, <code>batchtools</code>,
+        and <code>future.batchtools</code> packages, and
+        <a href="https://www.gnu.org/software/make">Makefile</a>.
       </li>
     </ul>
 
