@@ -192,12 +192,18 @@
         The <pkg>Rhpc</pkg> permits <code>*apply()</code> style dispatch via MPI.
       </li>
       <li>
-        The <pkg>drake</pkg> package is an R-focused reproducible build system.
+        The <pkg>drake</pkg> package is an R-focused 
+        <a href="https://github.com/pditommaso/awesome-pipeline">pipeline toolkit</a>.
         Similarly to <a href="https://www.gnu.org/software/make">Make</a>, drake 
         arranges the intermediate steps of a workflow and executes them in parallelizable
-        stages. Drake supports a full arsenal of parallel backends,
-        ranging from local multicore computing to serious distributed computing
-        on clusters. Backends draw from the
+        stages, skipping work that is already up to date.
+        Drake supports a vast arsenal of parallel backends,
+        ranging from local multicore processing to serious distributed computing
+        on clusters that use 
+        <a href="https://slurm.schedmd.com/">SLURM</a>,
+        <a href="http://www.adaptivecomputing.com/products/open-source/torque/">TORQUE</a>,
+        the <a href="http://www.univa.com/products/">Univa Grid Engine</a>,
+        and other formal job schedulers. Backends draw from the
         <code>parallel</code>, <code>future</code>, <code>batchtools</code>,
         and <code>future.batchtools</code> packages, as well as 
         <a href="https://www.gnu.org/software/make">Makefiles</a>.
