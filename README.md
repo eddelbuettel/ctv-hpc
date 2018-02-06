@@ -20,7 +20,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 
 The `ctv` package supports these Task Views. Its functions `install.views` and `update.views` allow, respectively, installation or update of packages from a given Task View; the option `coreOnly` can restrict operations to packages labeled as *core* below.
 
-**Direct support in R started with release 2.14.0** which includes a new package **parallel** incorporating (slightly revised) copies of packages multicore and [snow](https://cran.r-project.org/package=snow/index.html). Some types of clusters are not handled directly by the base package 'parallel'. However, and as explained in the package vignette, the parts of parallel which provide [snow](../packages/snow/index.html) -like functions will accept [snow](../packages/snow) clusters including MPI clusters.
+**Direct support in R started with release 2.14.0** which includes a new package **parallel** incorporating (slightly revised) copies of packages multicore and [snow](https://cran.r-project.org/package=snow/index.html). Some types of clusters are not handled directly by the base package 'parallel'. However, and as explained in the package [vignette](https://stat.ethz.ch/R-manual/R-devel/library/parallel/doc/parallel.pdf), the parts of parallel which provide [snow](../packages/snow/index.html) -like functions will accept [snow](../packages/snow) clusters including MPI clusters.
 The **parallel** package also contains support for multiple RNG streams following L'Ecuyer et al (2002), with support for both mclapply and snow clusters.
 The version released for R 2.14.0 contains base functionality: higher-level convenience functions are planned for later R releases.
 
