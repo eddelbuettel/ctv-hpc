@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2018-01-19</version>
+   <version>2018-02-07</version>
 
   <info>
     <p>
@@ -31,7 +31,7 @@
       Jochen Knaus, Tobias Verbeke, Hao Yu, David Rosenberg, Marco
       Enea, Ivo Welch, Jay Emerson, Wei-Chen Chen, Bill Cleveland, 
       Ross Boylan, Ramon Diaz-Uriarte, Mark Zeligman, Kevin Ushey, Graham
-      Jeffries, and Will Landau (as well as others I may have forgotten to
+      Jeffries, Will Landau, and Tim Flutre (as well as others I may have forgotten to
       add here) are gratefully acknowledged.  
     </p>
     <p> 
@@ -53,9 +53,10 @@
       which includes a new package <strong>parallel</strong> incorporating 
       (slightly revised) copies of packages multicore and 
       <pkg>snow</pkg>.  Some types of clusters are not handled directly by 
-      the base package 'parallel'. However, and as explained in the package vignette, the parts of
-      parallel which provide <pkg>snow</pkg>-like functions will
-      accept <pkg>snow</pkg> clusters including MPI clusters. 
+      the base package 'parallel'. However, and as explained in the package
+      vignette, the parts of parallel which provide <pkg>snow</pkg>-like functions will
+      accept <pkg>snow</pkg> clusters including MPI clusters. Use
+      <code>vignette("parallel")</code> to view the package vignette.
       <br/>
 
       The <strong>parallel</strong> package also contains support for multiple 
@@ -409,17 +410,7 @@
       <li>
         Nowadays, many packages can use the facilities offered by
         the <strong>parallel</strong> package. One example 
-        is <pkg>pls</pkg>, another is <pkg>PGICA</pkg> which can run ICA
-        analysis in parallel on SGE or multicore platforms.
-      </li>
-      <li>
-        The <pkg>sprint</pkg> (an acronym for "Simple Parallel R INTerface")
-        package provides a parallel computing framework for R making High
-        Performance Computing (HPC) accessible to users who are not familiar
-        with parallel programming and the use of HPC architectures. It
-        contains a library of parallelised R functions for correlation,
-        partitioning around medoids, apply, permutation testing,
-        bootstrapping, random forest, rank product and hamming distance. 
+        is <pkg>pls</pkg>.
       </li>
       <li>
         The <pkg>pbapply</pkg> package offers a progress bar for vectorized R
@@ -659,7 +650,6 @@
     <pkg>pbdSLAP</pkg>
     <pkg>peperr</pkg>
     <pkg>permGPU</pkg>
-    <pkg>PGICA</pkg>
     <pkg>pls</pkg>
     <pkg>pmclust</pkg>
     <pkg>profr</pkg>
@@ -686,7 +676,6 @@
     <pkg>snowfall</pkg>
     <pkg>snowFT</pkg>
     <pkg>speedglm</pkg>
-    <pkg>sprint</pkg>    
     <pkg>sqldf</pkg>
     <pkg>STAR</pkg>
     <pkg>tensorflow</pkg>

@@ -5,7 +5,7 @@ CRAN Task View: High-Performance and Parallel Computing with R
 |-----------------|------------------------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                                            
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org                           
-| **Version:**    | 2018-01-19                                                   
+| **Version:**    | 2018-02-07                                                   
 | **URL:**        | <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 This CRAN task view contains a list of packages, grouped by topic, that are useful for high-performance computing (HPC) with R. In this context, we are defining 'high-performance computing' rather loosely as just about anything related to pushing R a little further: using compiled code, parallel computing (in both explicit and implicit modes), working with large objects as well as profiling.
@@ -14,13 +14,13 @@ Unless otherwise mentioned, all packages presented with hyperlinks are available
 
 Several of the areas discussed in this Task View are undergoing rapid change. Please send suggestions for additions and extensions for this task view to the [task view maintainer](mailto:Dirk.Eddelbuettel@R-project.org).
 
-Suggestions and corrections by Achim Zeileis, Markus Schmidberger, Martin Morgan, Max Kuhn, Tomas Radivoyevitch, Jochen Knaus, Tobias Verbeke, Hao Yu, David Rosenberg, Marco Enea, Ivo Welch, Jay Emerson, Wei-Chen Chen, Bill Cleveland, Ross Boylan, Ramon Diaz-Uriarte, Mark Zeligman, Kevin Ushey, Graham Jeffries, and Will Landau (as well as others I may have forgotten to add here) are gratefully acknowledged.
+Suggestions and corrections by Achim Zeileis, Markus Schmidberger, Martin Morgan, Max Kuhn, Tomas Radivoyevitch, Jochen Knaus, Tobias Verbeke, Hao Yu, David Rosenberg, Marco Enea, Ivo Welch, Jay Emerson, Wei-Chen Chen, Bill Cleveland, Ross Boylan, Ramon Diaz-Uriarte, Mark Zeligman, Kevin Ushey, Graham Jeffries, Will Landau, and Tim Flutre (as well as others I may have forgotten to add here) are gratefully acknowledged.
 
 Contributions are always welcome, and encouraged. Since the start of this CRAN task view in October 2008, most contributions have arrived as email suggestions. The source file for this particular task view file now also reside in a GitHub repository (see below) so that pull requests are also possible.
 
 The `ctv` package supports these Task Views. Its functions `install.views` and `update.views` allow, respectively, installation or update of packages from a given Task View; the option `coreOnly` can restrict operations to packages labeled as *core* below.
 
-**Direct support in R started with release 2.14.0** which includes a new package **parallel** incorporating (slightly revised) copies of packages multicore and [snow](https://cran.r-project.org/package=snow/index.html). Some types of clusters are not handled directly by the base package 'parallel'. However, and as explained in the package vignette (available via `vignette("parallel")`), the parts of parallel which provide [snow](../packages/snow/index.html) -like functions will accept [snow](../packages/snow) clusters including MPI clusters.
+**Direct support in R started with release 2.14.0** which includes a new package **parallel** incorporating (slightly revised) copies of packages multicore and [snow](https://cran.r-project.org/package=snow/index.html). Some types of clusters are not handled directly by the base package 'parallel'. However, and as explained in the package vignette, the parts of parallel which provide [snow](../packages/snow/index.html) -like functions will accept [snow](../packages/snow) clusters including MPI clusters. Use `vignette("parallel")` to view the package vignette.
 The **parallel** package also contains support for multiple RNG streams following L'Ecuyer et al (2002), with support for both mclapply and snow clusters.
 The version released for R 2.14.0 contains base functionality: higher-level convenience functions are planned for later R releases.
 
@@ -94,8 +94,7 @@ The version released for R 2.14.0 contains base functionality: higher-level conv
 -   The [dclone](https://cran.r-project.org/package=dclone/index.html) package provides a global optimization approach and a variant of simulated annealing which exploits Bayesian MCMC tools to get MLE point estimates and standard errors using low level functions for implementing maximum likelihood estimating procedures for complex models using data cloning and Bayesian Markov chain Monte Carlo methods with support for JAGS, WinBUGS and OpenBUGS; parallel computing is supported via the [snow](../packages/snow) package.
 -   The [pmclust](https://cran.r-project.org/package=pmclust/index.html) package utilizes unsupervised model-based clustering for high dimensional (ultra) large data. The package uses [pbdMPI](../packages/pbdMPI) to perform a parallel version of the EM algorithm for finite mixture Gaussian models.
 -   The [harvestr](https://cran.r-project.org/package=harvestr) package provides helper functions for (reproducible) simulations.
--   Nowadays, many packages can use the facilities offered by the **parallel** package. One example is [pls](https://cran.r-project.org/package=pls/index.html), another is [PGICA](../packages/PGICA) which can run ICA analysis in parallel on SGE or multicore platforms.
--   The [sprint](https://cran.r-project.org/package=sprint) (an acronym for "Simple Parallel R INTerface") package provides a parallel computing framework for R making High Performance Computing (HPC) accessible to users who are not familiar with parallel programming and the use of HPC architectures. It contains a library of parallelised R functions for correlation, partitioning around medoids, apply, permutation testing, bootstrapping, random forest, rank product and hamming distance.
+-   Nowadays, many packages can use the facilities offered by the **parallel** package. One example is [pls](https://cran.r-project.org/package=pls).
 -   The [pbapply](https://cran.r-project.org/package=pbapply) package offers a progress bar for vectorized R functions in the \`\*apply\` family, and supports several backends.
 -   The [Sim.DiffProc](https://cran.r-project.org/package=Sim.DiffProc) package simulates and estimates multidimensional Itô and Stratonovich stochastic differential equations in parallel.
 -   The [keras](https://cran.r-project.org/package=keras) package by by Allaire et al. provides a high-level neural networks API. It was developed with a focus on enabling fast experimentation for convolutional networks, recurrent networks, any combination of both, and custom neural network architectures.
@@ -199,7 +198,6 @@ The version released for R 2.14.0 contains base functionality: higher-level conv
 -   [pbdSLAP](https://cran.r-project.org/package=pbdSLAP)
 -   [peperr](https://cran.r-project.org/package=peperr)
 -   [permGPU](https://cran.r-project.org/package=permGPU)
--   [PGICA](https://cran.r-project.org/package=PGICA)
 -   [pls](https://cran.r-project.org/package=pls)
 -   [pmclust](https://cran.r-project.org/package=pmclust)
 -   [profr](https://cran.r-project.org/package=profr)
@@ -226,7 +224,6 @@ The version released for R 2.14.0 contains base functionality: higher-level conv
 -   [snowfall](https://cran.r-project.org/package=snowfall)
 -   [snowFT](https://cran.r-project.org/package=snowFT)
 -   [speedglm](https://cran.r-project.org/package=speedglm)
--   [sprint](https://cran.r-project.org/package=sprint)
 -   [sqldf](https://cran.r-project.org/package=sqldf)
 -   [STAR](https://cran.r-project.org/package=STAR)
 -   [tensorflow](https://cran.r-project.org/package=tensorflow)
