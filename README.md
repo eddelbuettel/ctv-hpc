@@ -5,7 +5,7 @@ CRAN Task View: High-Performance and Parallel Computing with R
 |-----------------|------------------------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                                            
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org                           
-| **Version:**    | 2018-03-20                                                   
+| **Version:**    | 2018-05-07                                                   
 | **URL:**        | <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 This CRAN task view contains a list of packages, grouped by topic, that are useful for high-performance computing (HPC) with R. In this context, we are defining 'high-performance computing' rather loosely as just about anything related to pushing R a little further: using compiled code, parallel computing (in both explicit and implicit modes), working with large objects as well as profiling.
@@ -14,7 +14,7 @@ Unless otherwise mentioned, all packages presented with hyperlinks are available
 
 Several of the areas discussed in this Task View are undergoing rapid change. Please send suggestions for additions and extensions for this task view to the [task view maintainer](mailto:Dirk.Eddelbuettel@R-project.org).
 
-Suggestions and corrections by Achim Zeileis, Markus Schmidberger, Martin Morgan, Max Kuhn, Tomas Radivoyevitch, Jochen Knaus, Tobias Verbeke, Hao Yu, David Rosenberg, Marco Enea, Ivo Welch, Jay Emerson, Wei-Chen Chen, Bill Cleveland, Ross Boylan, Ramon Diaz-Uriarte, Mark Zeligman, Kevin Ushey, Graham Jeffries, Will Landau, and Tim Flutre (as well as others I may have forgotten to add here) are gratefully acknowledged.
+Suggestions and corrections by Achim Zeileis, Markus Schmidberger, Martin Morgan, Max Kuhn, Tomas Radivoyevitch, Jochen Knaus, Tobias Verbeke, Hao Yu, David Rosenberg, Marco Enea, Ivo Welch, Jay Emerson, Wei-Chen Chen, Bill Cleveland, Ross Boylan, Ramon Diaz-Uriarte, Mark Zeligman, Kevin Ushey, Graham Jeffries, Will Landau, Tim Flutre and Reza Mohammadi (as well as others I may have forgotten to add here) are gratefully acknowledged.
 
 Contributions are always welcome, and encouraged. Since the start of this CRAN task view in October 2008, most contributions have arrived as email suggestions. The source file for this particular task view file now also reside in a GitHub repository (see below) so that pull requests are also possible.
 
@@ -109,6 +109,8 @@ The version released for R 2.14.0 contains base functionality: higher-level conv
 -   The [gpuR](https://cran.r-project.org/package=gpuR) package offers GPU-enabled functions: New gpu\* and vcl\* classes are provided to wrap typical R objects (e.g. vector, matrix) mirroring typical R syntax without the need to know OpenCL.
 -   The [tensorflow](https://cran.r-project.org/package=tensorflow) package by by Allaire et al. provides access to the complete TensorFlow API from within R that enables numerical computation using data flow graphs. The flexible architecture allows users to deploy computation to one or more CPUs or GPUs in a desktop, server, or mobile device with a single API.
 -   The [tfestimators](https://cran.r-project.org/package=tfestimators) package by by Tang et al. offers a high-level API that provides implementations of many different model types including linear models and deep neural networks. It also provides a flexible framework for defining arbitrary new model types as custom estimators with the distributed power of TensorFlow for free.
+-   The [BDgraph](https://cran.r-project.org/package=BDgraph) package provides statistical tools for Bayesian structure learning in undirected graphical models for multivariate continuous, discrete, and mixed data using parallel sampling algorithms implemented using OpenMP and C++.
+-   The [ssgraph](https://cran.r-project.org/package=ssgraph) package offers Bayesian inference in undirected graphical models using spike-and-slab priors for multivariate continuous, discrete, and mixed data. Computationally intensive tasks of the package are using OpemMP via C++.
 
 **Large memory and out-of-memory data**
 
@@ -146,6 +148,7 @@ The version released for R 2.14.0 contains base functionality: higher-level conv
 -   [batchtools](https://cran.r-project.org/package=batchtools)
 -   [bayesm](https://cran.r-project.org/package=bayesm)
 -   [bcp](https://cran.r-project.org/package=bcp)
+-   [BDgraph](https://cran.r-project.org/package=BDgraph)
 -   [biglars](https://cran.r-project.org/package=biglars)
 -   [biglm](https://cran.r-project.org/package=biglm)
 -   [bigmemory](https://cran.r-project.org/package=bigmemory)
@@ -226,6 +229,7 @@ The version released for R 2.14.0 contains base functionality: higher-level conv
 -   [snowFT](https://cran.r-project.org/package=snowFT)
 -   [speedglm](https://cran.r-project.org/package=speedglm)
 -   [sqldf](https://cran.r-project.org/package=sqldf)
+-   [ssgraph](https://cran.r-project.org/package=ssgraph)
 -   [STAR](https://cran.r-project.org/package=STAR)
 -   [tensorflow](https://cran.r-project.org/package=tensorflow)
 -   [tfestimators](https://cran.r-project.org/package=tfestimators)

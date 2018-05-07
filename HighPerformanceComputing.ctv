@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2018-03-20</version>
+   <version>2018-05-07</version>
 
   <info>
     <p>
@@ -31,8 +31,8 @@
       Jochen Knaus, Tobias Verbeke, Hao Yu, David Rosenberg, Marco
       Enea, Ivo Welch, Jay Emerson, Wei-Chen Chen, Bill Cleveland, 
       Ross Boylan, Ramon Diaz-Uriarte, Mark Zeligman, Kevin Ushey, Graham
-      Jeffries, Will Landau, and Tim Flutre (as well as others I may have forgotten to
-      add here) are gratefully acknowledged.  
+      Jeffries, Will Landau, Tim Flutre and Reza Mohammadi (as well as others
+      I may have forgotten to add here) are gratefully acknowledged.  
     </p>
     <p> 
       Contributions are always welcome, and encouraged. Since the start of
@@ -480,6 +480,16 @@
         arbitrary new model types as custom estimators with the
         distributed power of TensorFlow for free.
       </li>
+      <li> The <pkg>BDgraph</pkg> package provides statistical tools for
+        Bayesian structure learning in undirected graphical models for
+        multivariate continuous, discrete, and mixed data using parallel
+        sampling algorithms implemented using OpenMP and C++.
+      </li>
+      <li> The <pkg>ssgraph</pkg> package offers Bayesian inference in
+        undirected graphical models using spike-and-slab priors for
+        multivariate continuous, discrete, and mixed data. Computationally
+        intensive tasks of the package are using OpemMP via C++.
+      </li>
     </ul>
 
     <p>
@@ -598,6 +608,7 @@
     <pkg>batchtools</pkg>
     <pkg>bayesm</pkg>
     <pkg>bcp</pkg>
+    <pkg>BDgraph</pkg>
     <pkg>biglars</pkg>
     <pkg>biglm</pkg>
     <pkg>bigmemory</pkg>
@@ -678,6 +689,7 @@
     <pkg>snowFT</pkg>
     <pkg>speedglm</pkg>
     <pkg>sqldf</pkg>
+    <pkg>ssgraph</pkg>    
     <pkg>STAR</pkg>
     <pkg>tensorflow</pkg>
     <pkg>tfestimators</pkg>
