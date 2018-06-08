@@ -260,7 +260,8 @@
     </p>
     <ul>	     
       <li>Random-number generators for parallel computing are available via
-        the <pkg>rlecuyer</pkg> package, as well as the <pkg>sitmo</pkg> package.
+        the <pkg>rlecuyer</pkg> package, the <pkg>rstream</pkg> package,
+	the <pkg>sitmo</pkg> package as well as the <pkg>dqrng</pkg> package.
       </li>
 
       <li>The <pkg>doRNG</pkg> package provides functions to perform
@@ -488,7 +489,7 @@
       <li> The <pkg>ssgraph</pkg> package offers Bayesian inference in
         undirected graphical models using spike-and-slab priors for
         multivariate continuous, discrete, and mixed data. Computationally
-        intensive tasks of the package are using OpemMP via C++.
+        intensive tasks of the package are using OpenMP via C++.
       </li>
     </ul>
 
@@ -624,6 +625,7 @@
     <pkg>doRedis</pkg>
     <pkg>doRNG</pkg>
     <pkg>doSNOW</pkg>
+    <pkg>dqrng</pkg>
     <pkg>drake</pkg>
     <pkg>ff</pkg>
     <pkg>ffbase</pkg>
@@ -682,6 +684,7 @@
     <pkg>RProtoBuf</pkg>
     <pkg>rredis</pkg>
     <pkg>rslurm</pkg>
+    <pkg>rstream</pkg>
     <pkg>Sim.DiffProc</pkg>
     <pkg>sitmo</pkg>
     <pkg priority="core">snow</pkg>
