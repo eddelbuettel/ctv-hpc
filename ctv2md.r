@@ -35,7 +35,8 @@ cmd <- paste0("cat ", htmlfile,
 ###  - deal with the header by removing extra ||, replacing |** with ** and **| with **:
               "sed -e's/||//g' -e's/|\\*\\*/\\*\\*/g' -e's/\\*\\*|/\\*\\* /g' -e's/|$/  /g' ",
 ###  - make the implicit URL to packages explicit
-              "-e's|../packages/\\(.*\\)/index.html|https://cran.r-project.org/package=\\1|g' ",
+              "-e's|../packages/\\([^/]*\\)/index.html|https://cran.r-project.org/package=\\1|g' ",
+              "-e's|../packages/\\([^/]*\\)|https://cran.r-project.org/package=\\1|g' ",
 ###  - write out mdfile
               "> ", mdfile)
 
