@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2018-05-07</version>
+   <version>2018-06-13</version>
 
   <info>
     <p>
@@ -31,8 +31,9 @@
       Jochen Knaus, Tobias Verbeke, Hao Yu, David Rosenberg, Marco
       Enea, Ivo Welch, Jay Emerson, Wei-Chen Chen, Bill Cleveland, 
       Ross Boylan, Ramon Diaz-Uriarte, Mark Zeligman, Kevin Ushey, Graham
-      Jeffries, Will Landau, Tim Flutre and Reza Mohammadi (as well as others
-      I may have forgotten to add here) are gratefully acknowledged.  
+      Jeffries, Will Landau, Tim Flutre, Reza Mohammadi, and Ralf Stubner
+      (as well as others I may have forgotten to add here) are gratefully
+      acknowledged.  
     </p>
     <p> 
       Contributions are always welcome, and encouraged. Since the start of
