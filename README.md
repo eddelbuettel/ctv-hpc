@@ -1,12 +1,11 @@
 CRAN Task View: High-Performance and Parallel Computing with R
 --------------------------------------------------------------
 
-|                 |                                                              
-|-----------------|------------------------------------------------------------  
-| **Maintainer:** | Dirk Eddelbuettel                                            
-| **Contact:**    | Dirk.Eddelbuettel at R-project.org                           
-| **Version:**    | 2018-06-13                                                   
-| **URL:**        | <https://CRAN.R-project.org/view=HighPerformanceComputing>   
+                                                                             
+**Maintainer:** Dirk Eddelbuettel                                            
+**Contact:**    Dirk.Eddelbuettel at R-project.org                           
+**Version:**    2018-06-13                                                   
+**URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 This CRAN task view contains a list of packages, grouped by topic, that are useful for high-performance computing (HPC) with R. In this context, we are defining 'high-performance computing' rather loosely as just about anything related to pushing R a little further: using compiled code, parallel computing (in both explicit and implicit modes), working with large objects as well as profiling.
 
