@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2018-06-13</version>
+   <version>2018-07-23</version>
 
   <info>
     <p>
@@ -31,9 +31,9 @@
       Jochen Knaus, Tobias Verbeke, Hao Yu, David Rosenberg, Marco
       Enea, Ivo Welch, Jay Emerson, Wei-Chen Chen, Bill Cleveland, 
       Ross Boylan, Ramon Diaz-Uriarte, Mark Zeligman, Kevin Ushey, Graham
-      Jeffries, Will Landau, Tim Flutre, Reza Mohammadi, and Ralf Stubner
-      (as well as others I may have forgotten to add here) are gratefully
-      acknowledged.  
+      Jeffries, Will Landau, Tim Flutre, Reza Mohammadi, Ralf Stubner, and
+      Bob Jansen (as well as others I may have forgotten to add here) are
+      gratefully acknowledged.  
     </p>
     <p> 
       Contributions are always welcome, and encouraged. Since the start of
@@ -210,11 +210,13 @@
     <strong>Parallel computing: Grid computing</strong>
     </p>
     <ul>	     
-      <li>The multiR package by Grose was presented at useR! 2008 
-	but has not been released. It may offer a snow-style framework on a grid computing platform.
+      <li>The multiR package by Grose was presented at useR! 2008 but has not
+      been released. It may offer a snow-style framework on a grid computing
+      platform.
       </li>
-      <li>The <rforge>biocep-distrib</rforge> project by Chine offers a Java-based framework for local, Grid,
-        or Cloud computing. It is under active development.
+      <li>The <rforge>biocep-distrib</rforge> project by Chine offers a
+      Java-based framework for local, Grid, or Cloud computing. It is under
+      active development.
       </li>
     </ul>
 
@@ -224,16 +226,19 @@
     </p>
     <ul>	     
       <li>
-	The <github>saptarshiguha/RHIPE</github> package, started by Saptarshi Guha,
-        provides an interface between R and Hadoop for analysis of large complex data wholly from 
-	within R using the Divide and Recombine approach to big data.
+	The <github>saptarshiguha/RHIPE</github> package, started by
+	Saptarshi Guha, provides an interface between R and Hadoop for
+	analysis of large complex data wholly from within R using the Divide
+	and Recombine approach to big data.
       </li>
       <li>
-	The rmr package by Revolution Analytics also provides an interface between R and Hadoop
-	for a Map/Reduce programming framework. (<a href="https://github.com/RevolutionAnalytics/RHadoop/wiki/rmr">link</a>)
+	The rmr package by Revolution Analytics also provides an interface
+	between R and Hadoop for a Map/Reduce programming framework. (<a
+	href="https://github.com/RevolutionAnalytics/RHadoop/wiki/rmr">link</a>)
       </li>
       <li>
-	A related package, segue package by Long, permits easy execution of embarassingly parallel task on Elastic Map Reduce (EMR) at Amazon.
+	A related package, segue package by Long, permits easy execution of
+	embarassingly parallel task on Elastic Map Reduce (EMR) at Amazon.
 	(<a href="http://code.google.com/p/segue/">link</a>)
       </li>
       <li>
@@ -327,8 +332,9 @@
     </p>
     <ul>	     
       <li>
-        The <pkg>caret</pkg> package by Kuhn can use various frameworks
-	(MPI, NWS etc) to parallelized cross-validation and bootstrap characterizations of predictive models.
+        The <pkg>caret</pkg> package by Kuhn can use various frameworks (MPI,
+        NWS etc) to parallelized cross-validation and bootstrap
+        characterizations of predictive models.
       </li>
       <li>
 	The <bioc>maanova</bioc> package on Bioconductor by Wu can use <pkg>snow</pkg>
@@ -509,11 +515,12 @@
         that are too large to be loaded into memory, along with a number of
         higher-level functions.
       </li>
-      <li>The <pkg>bigmemory</pkg> package by Kane and Emerson permits storing large objects such
-        as matrices in memory (as well as via files) and uses external
-        pointer objects to refer to them.  This permits transparent access
-        from R without bumping against R's internal memory limits.  Several R
-        processes on the same computer can also share big memory objects.
+      <li>The <pkg>bigmemory</pkg> package by Kane and Emerson permits
+      storing large objects such as matrices in memory (as well as via files)
+      and uses external pointer objects to refer to them.  This permits
+      transparent access from R without bumping against R's internal memory
+      limits.  Several R processes on the same computer can also share big
+      memory objects.
       </li>
       <li>A large number of database packages, and database-alike packages
         (such as <pkg>sqldf</pkg> by Grothendieck and <pkg>data.table</pkg>
@@ -565,12 +572,13 @@
         applications for faster and more direct data transfer.
       </li>
       <li>
-        The <pkg>RcppParallel</pkg> package by Allaire et al. bundles the
-        <a href="https://www.threadingbuildingblocks.org">Intel Threading Building Blocks</a>
-        and <a href="http://tinythreadpp.bitsnbites.eu">TinyThread</a>
-        libraries. Together with <pkg>Rcpp</pkg>, RcppParallel makes it
-        easy to write safe, performant, concurrently-executing C++ code,
-        and use that code within R and R packages.
+        The <pkg>RcppParallel</pkg> package by Allaire et al. bundles the <a
+        href="https://www.threadingbuildingblocks.org">Intel Threading
+        Building Blocks</a> and <a
+        href="http://tinythreadpp.bitsnbites.eu">TinyThread</a>
+        libraries. Together with <pkg>Rcpp</pkg>, RcppParallel makes it easy
+        to write safe, performant, concurrently-executing C++ code, and use
+        that code within R and R packages.
       </li>
       <li>
 	The <pkg>rJava</pkg> package by Urbanek provides a low-level
