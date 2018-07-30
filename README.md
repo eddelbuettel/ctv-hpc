@@ -4,7 +4,7 @@
 --------------- ----------------------------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                                            
 **Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2018-07-23                                                   
+**Version:**    2018-07-30                                                   
 **URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 <div>
@@ -143,6 +143,8 @@ higher-level convenience functions are planned for later R releases.
   - The [parSim](https://cran.r-project.org/package=parSim) package can perform
     simulation studies using one or multiple cores, both locally and on
     HPC clusters.
+  - The [qsub](https://cran.r-project.org/package=qsub) package can submit commands
+    to run on gridengine clusters.
 
 **Parallel computing: Implicit parallelism**
 
@@ -563,6 +565,7 @@ higher-level convenience functions are planned for later R releases.
   - [profr](https://cran.r-project.org/package=profr)
   - [proftools](https://cran.r-project.org/package=proftools)
   - [pvclust](https://cran.r-project.org/package=pvclust)
+  - [qsub](https://cran.r-project.org/package=qsub)
   - [randomForestSRC](https://cran.r-project.org/package=randomForestSRC)
   - [Rborist](https://cran.r-project.org/package=Rborist)
   - [Rcpp](https://cran.r-project.org/package=Rcpp)

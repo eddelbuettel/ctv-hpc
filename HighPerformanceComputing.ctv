@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2018-07-23</version>
+   <version>2018-07-30</version>
 
   <info>
     <p>
@@ -155,6 +155,8 @@
       </li>
       <li>The <pkg>parSim</pkg> package can perform simulation studies using
         one or multiple cores, both locally and on HPC clusters.
+      </li>
+      <li>The <pkg>qsub</pkg> package can submit commands to run on gridengine clusters.
       </li>
 
     </ul>
@@ -683,6 +685,7 @@
     <pkg>profr</pkg>
     <pkg>proftools</pkg>
     <pkg>pvclust</pkg>
+    <pkg>qsub</pkg>
     <pkg>randomForestSRC</pkg>    
     <pkg>Rborist</pkg>
     <pkg>Rcpp</pkg>
