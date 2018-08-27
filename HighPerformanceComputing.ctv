@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2018-07-30</version>
+   <version>2018-08-27</version>
 
   <info>
     <p>
@@ -256,10 +256,6 @@
         routines useful for the construction, aggregation,
         manipulation, and plotting of large numbers of histograms such
         as those created by mappers in a MapReduce application.
-      </li>
-      <li>
-        The <pkg>toaster</pkg> package performs in-database computations
-        utilizing the parallel / distributed Teradata Aster analytical platform.
       </li>
     </ul>	     
 
@@ -555,6 +551,10 @@
       <li>The <pkg>LaF</pkg> package provides methods for fast access to
         large ASCII files in csv or fixed-width format.
       </li>
+      <li>The <pkg>bigstatsr</pkg> package also operates on file-backed large
+        matrices via memory-mapped access, and offeres several matrix
+        operationc, PCA, sparse methods and more..
+      </li>
     </ul>
 
     <p>
@@ -630,6 +630,7 @@
     <pkg>biglars</pkg>
     <pkg>biglm</pkg>
     <pkg>bigmemory</pkg>
+    <pkg>bigstatsr</pkg>
     <pkg>bnlearn</pkg>
     <pkg>caret</pkg>
     <pkg>clustermq</pkg>
@@ -715,7 +716,6 @@
     <pkg>tensorflow</pkg>
     <pkg>tfestimators</pkg>
     <pkg>tm</pkg>
-    <pkg>toaster</pkg>
     <pkg>varSelRF</pkg>
     <pkg>xgboost</pkg>
   </packagelist>

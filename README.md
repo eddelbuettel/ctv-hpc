@@ -4,7 +4,7 @@
 --------------- ----------------------------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                                            
 **Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2018-07-30                                                   
+**Version:**    2018-08-27                                                   
 **URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 <div>
@@ -219,9 +219,6 @@ higher-level convenience functions are planned for later R releases.
     aggregation, manipulation, and plotting of large numbers of
     histograms such as those created by mappers in a MapReduce
     application.
-  - The [toaster](https://cran.r-project.org/package=toaster) package performs
-    in-database computations utilizing the parallel / distributed
-    Teradata Aster analytical platform.
 
 **Parallel computing: Random numbers**
 
@@ -456,6 +453,9 @@ higher-level convenience functions are planned for later R releases.
     [ff](https://cran.r-project.org/package=ff) package.
   - The [LaF](https://cran.r-project.org/package=LaF) package provides methods for
     fast access to large ASCII files in csv or fixed-width format.
+  - The [bigstatsr](https://cran.r-project.org/package=bigstatsr) package also
+    operates on file-backed large matrices via memory-mapped access, and
+    offeres several matrix operationc, PCA, sparse methods and more..
 
 **Easier interfaces for Compiled code**
 
@@ -510,6 +510,7 @@ higher-level convenience functions are planned for later R releases.
   - [biglars](https://cran.r-project.org/package=biglars)
   - [biglm](https://cran.r-project.org/package=biglm)
   - [bigmemory](https://cran.r-project.org/package=bigmemory)
+  - [bigstatsr](https://cran.r-project.org/package=bigstatsr)
   - [bnlearn](https://cran.r-project.org/package=bnlearn)
   - [caret](https://cran.r-project.org/package=caret)
   - [clustermq](https://cran.r-project.org/package=clustermq)
@@ -595,7 +596,6 @@ higher-level convenience functions are planned for later R releases.
   - [tensorflow](https://cran.r-project.org/package=tensorflow)
   - [tfestimators](https://cran.r-project.org/package=tfestimators)
   - [tm](https://cran.r-project.org/package=tm)
-  - [toaster](https://cran.r-project.org/package=toaster)
   - [varSelRF](https://cran.r-project.org/package=varSelRF)
   - [xgboost](https://cran.r-project.org/package=xgboost)
 
