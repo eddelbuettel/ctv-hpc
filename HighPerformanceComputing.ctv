@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2018-08-27</version>
+   <version>2018-10-27</version>
 
   <info>
     <p>
@@ -182,9 +182,9 @@
 	pre-alpha and available from the Google Code project <gcode>romp</gcode>.
 	An R-Forge project <rforge>romp</rforge> was initiated but there is no package, yet.
       </li>
-      <li>The R/parallel package by Vera, Jansen and Suppi offers a C++-based master-slave dispatch
-        mechanism for parallel execution (<a href="http://www.rparallel.org/">link</a>)
-      </li>
+      <!-- <li>The R/parallel package by Vera, Jansen and Suppi offers a C++-based master-slave dispatch -->
+      <!--   mechanism for parallel execution (<a href="http://www.rparallel.org/">link</a>) -->
+      <!-- </li> -->
       <li>The <pkg>Rdsm</pkg> package provides a threads-like parallel
 	computing environment, both on multicore machine and across the network
 	by providing facilities inspired from distributed shared memory
@@ -740,7 +740,7 @@
     <a href="http://dirk.eddelbuettel.com/papers/ismNov2009introHPCwithR.pdf">Slides from Introduction to High-Performance Computing with R tutorial help in Nov 2009 at the Institute for Statistical Mathematics, Tokyo, Japan</a> 
     <a href="https://gforge.nbic.nl/projects/rgpu/">rgpu project at nbic.nl</a>
     <a href="http://icl.cs.utk.edu/magma/">Magma: Matrix Algebra on GPU and Multicore architectures</a>
-    <a href="http://shop.oreilly.com/product/0636920021421.do">Parallel R: Data Analysis in the Distributed World"</a>
+    <a href="http://shop.oreilly.com/product/0636920021421.do">Parallel R: Data Analysis in the Distributed World</a>
     <a href="https://snoweye.github.io/hpsc/">High Performance Statistical Computing for Data Intensive Research</a>
     <a href="http://heather.cs.ucdavis.edu/~matloff/rth.html">Rth: Parallel R through Thrust</a>
     <a href="http://r-pbd.org">Programming with Big Data in R</a>

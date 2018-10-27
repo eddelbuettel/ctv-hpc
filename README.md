@@ -4,7 +4,7 @@
 --------------- ----------------------------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                                            
 **Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2018-08-27                                                   
+**Version:**    2018-10-27                                                   
 **URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 <div>
@@ -22,7 +22,7 @@ available from CRAN, the Comprehensive R Archive Network.
 Several of the areas discussed in this Task View are undergoing rapid
 change. Please send suggestions for additions and extensions for this
 task view to the [task view
-maintainer](mailto:Dirk.Eddelbuettel@R-project.org).
+maintainer](mailto:Dirk.Eddelbuettel@R-project.org) .
 
 Suggestions and corrections by Achim Zeileis, Markus Schmidberger,
 Martin Morgan, Max Kuhn, Tomas Radivoyevitch, Jochen Knaus, Tobias
@@ -149,7 +149,7 @@ higher-level convenience functions are planned for later R releases.
 **Parallel computing: Implicit parallelism**
 
   - The pnmath package by Tierney (
-    [link](http://www.stat.uiowa.edu/~luke/R/experimental/)) uses the
+    [link](http://www.stat.uiowa.edu/~luke/R/experimental/) ) uses the
     OpenMP parallel processing directives of recent compilers (such gcc
     4.2 or later) for implicit parallelism by replacing a number of
     internal R functions with replacements that can make use of multiple
@@ -158,16 +158,13 @@ higher-level convenience functions are planned for later R releases.
     environments in which the newer compilers are not available. Similar
     functionality is expected to become integrated into R 'eventually'.
   - The romp package by Jamitzky was presented at useR\! 2008 (
-    [slides](http://www.statistik.tu-dortmund.de/useR-2008/slides/Jamitzky.pdf))
-    and offers another interface to OpenMP using Fortran. The code is
+    [slides](http://www.statistik.tu-dortmund.de/useR-2008/slides/Jamitzky.pdf)
+    ) and offers another interface to OpenMP using Fortran. The code is
     still pre-alpha and available from the Google Code project
     [<span class="Gcode">romp</span>](https://code.google.com/p/romp/).
     An R-Forge project
     [<span class="Rforge">romp</span>](https://R-Forge.R-project.org/projects/romp/)
     was initiated but there is no package, yet.
-  - The R/parallel package by Vera, Jansen and Suppi offers a C++-based
-    master-slave dispatch mechanism for parallel execution (
-    [link](http://www.rparallel.org/))
   - The [Rdsm](https://cran.r-project.org/package=Rdsm) package provides a
     threads-like parallel computing environment, both on multicore
     machine and across the network by providing facilities inspired from
@@ -178,10 +175,10 @@ higher-level convenience functions are planned for later R releases.
   - The [Rhpc](https://cran.r-project.org/package=Rhpc) permits `*apply()` style
     dispatch via MPI.
   - The [drake](https://cran.r-project.org/package=drake) package is an R-focused
-    pipeline similar to [Make](https://www.gnu.org/software/make).
+    pipeline similar to [Make](https://www.gnu.org/software/make) .
     Parallel computing relies on the `parallel`, `future`, `batchtools`,
     and `future.batchtools` packages, as well as
-    [Makefiles](https://www.gnu.org/software/make). Drake uses code
+    [Makefiles](https://www.gnu.org/software/make) . Drake uses code
     analysis to configure the user's workflow and make the parallelism
     implicit.
 
@@ -204,10 +201,10 @@ higher-level convenience functions are planned for later R releases.
     using the Divide and Recombine approach to big data.
   - The rmr package by Revolution Analytics also provides an interface
     between R and Hadoop for a Map/Reduce programming framework. (
-    [link](https://github.com/RevolutionAnalytics/RHadoop/wiki/rmr))
+    [link](https://github.com/RevolutionAnalytics/RHadoop/wiki/rmr) )
   - A related package, segue package by Long, permits easy execution of
     embarassingly parallel task on Elastic Map Reduce (EMR) at Amazon. (
-    [link](http://code.google.com/p/segue/))
+    [link](http://code.google.com/p/segue/) )
   - The [RProtoBuf](https://cran.r-project.org/package=RProtoBuf) package provides
     an interface to Google's language-neutral, platform-neutral,
     extensible mechanism for serializing structured data. This package
@@ -239,14 +236,14 @@ higher-level convenience functions are planned for later R releases.
     Management) set of programs works well with MPI and slurm jobs can
     be submitted from R using the
     [rslurm](https://cran.r-project.org/package=rslurm) package. (
-    [link](http://slurm.schedmd.com/))
-  - The Condor toolkit ([link](http://www.cs.wisc.edu/condor/)) from
+    [link](http://slurm.schedmd.com/) )
+  - The Condor toolkit ([link](http://www.cs.wisc.edu/condor/) ) from
     the University of Wisconsin-Madison has been used with R as
     described in this [R News
-    article](http://www.r-project.org/doc/Rnews/Rnews_2005-2.pdf).
+    article](http://www.r-project.org/doc/Rnews/Rnews_2005-2.pdf) .
   - The sfCluster package by Knaus can be used with
     [snowfall](https://cran.r-project.org/package=snowfall). (
-    [link](http://www.imbi.uni-freiburg.de/parallel/)) but is currently
+    [link](http://www.imbi.uni-freiburg.de/parallel/) ) but is currently
     limited to LAM/MPI.
   - The [batch](https://cran.r-project.org/package=batch) package by Hoffmann can
     launch parallel computing requests onto a cluster and gather
@@ -641,7 +638,7 @@ higher-level convenience functions are planned for later R releases.
   - [Magma: Matrix Algebra on GPU and Multicore
     architectures](http://icl.cs.utk.edu/magma/)
   - [Parallel R: Data Analysis in the Distributed
-    World"](http://shop.oreilly.com/product/0636920021421.do)
+    World](http://shop.oreilly.com/product/0636920021421.do)
   - [High Performance Statistical Computing for Data Intensive
     Research](https://snoweye.github.io/hpsc/)
   - [Rth: Parallel R through
