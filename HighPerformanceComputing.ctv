@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2018-10-27</version>
+   <version>2018-10-30</version>
 
   <info>
     <p>
@@ -445,12 +445,6 @@
     </p>
     <ul>
       <li>
-        The <pkg>cudaBayesreg</pkg> package by da Silva implements
-        the <code>rhierLinearModel</code> from the <pkg>bayesm</pkg> package 
-	using nVidia's CUDA language and tools to provide high-performance
-        statistical analysis of fMRI voxels.
-      </li>
-      <li>
         The rgpu package (see below for link) aims to speed up bioinformatics
         analysis by using the GPU.
       </li>
@@ -624,7 +618,6 @@
     <pkg>BatchExperiments</pkg>
     <pkg>BatchJobs</pkg>
     <pkg>batchtools</pkg>
-    <pkg>bayesm</pkg>
     <pkg>bcp</pkg>
     <pkg>BDgraph</pkg>
     <pkg>biglars</pkg>
@@ -634,7 +627,6 @@
     <pkg>bnlearn</pkg>
     <pkg>caret</pkg>
     <pkg>clustermq</pkg>
-    <pkg>cudaBayesreg</pkg>
     <pkg>data.table</pkg>
     <pkg>dclone</pkg>
     <pkg>doFuture</pkg>

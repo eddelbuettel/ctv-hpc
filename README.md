@@ -4,7 +4,7 @@
 --------------- ----------------------------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                                            
 **Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2018-10-27                                                   
+**Version:**    2018-10-30                                                   
 **URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 <div>
@@ -368,11 +368,6 @@ higher-level convenience functions are planned for later R releases.
 
 **Parallel computing: GPUs**
 
-  - The [cudaBayesreg](https://cran.r-project.org/package=cudaBayesreg) package by
-    da Silva implements the `rhierLinearModel` from the
-    [bayesm](https://cran.r-project.org/package=bayesm) package using nVidia's CUDA
-    language and tools to provide high-performance statistical analysis
-    of fMRI voxels.
   - The rgpu package (see below for link) aims to speed up
     bioinformatics analysis by using the GPU.
   - The [gcbd](https://cran.r-project.org/package=gcbd) package implements a
@@ -501,7 +496,6 @@ higher-level convenience functions are planned for later R releases.
   - [BatchExperiments](https://cran.r-project.org/package=BatchExperiments)
   - [BatchJobs](https://cran.r-project.org/package=BatchJobs)
   - [batchtools](https://cran.r-project.org/package=batchtools)
-  - [bayesm](https://cran.r-project.org/package=bayesm)
   - [bcp](https://cran.r-project.org/package=bcp)
   - [BDgraph](https://cran.r-project.org/package=BDgraph)
   - [biglars](https://cran.r-project.org/package=biglars)
@@ -511,7 +505,6 @@ higher-level convenience functions are planned for later R releases.
   - [bnlearn](https://cran.r-project.org/package=bnlearn)
   - [caret](https://cran.r-project.org/package=caret)
   - [clustermq](https://cran.r-project.org/package=clustermq)
-  - [cudaBayesreg](https://cran.r-project.org/package=cudaBayesreg)
   - [data.table](https://cran.r-project.org/package=data.table)
   - [dclone](https://cran.r-project.org/package=dclone)
   - [doFuture](https://cran.r-project.org/package=doFuture)
