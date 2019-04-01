@@ -4,7 +4,7 @@
 --------------- ----------------------------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                                            
 **Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2018-10-30                                                   
+**Version:**    2019-04-01                                                   
 **URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 <div>
@@ -29,8 +29,8 @@ Martin Morgan, Max Kuhn, Tomas Radivoyevitch, Jochen Knaus, Tobias
 Verbeke, Hao Yu, David Rosenberg, Marco Enea, Ivo Welch, Jay Emerson,
 Wei-Chen Chen, Bill Cleveland, Ross Boylan, Ramon Diaz-Uriarte, Mark
 Zeligman, Kevin Ushey, Graham Jeffries, Will Landau, Tim Flutre, Reza
-Mohammadi, Ralf Stubner, and Bob Jansen (as well as others I may have
-forgotten to add here) are gratefully acknowledged.
+Mohammadi, Ralf Stubner, Bob Jansen, and Matt Fidler (as well as others
+I may have forgotten to add here) are gratefully acknowledged.
 
 Contributions are always welcome, and encouraged. Since the start of
 this CRAN task view in October 2008, most contributions have arrived as
@@ -365,6 +365,11 @@ higher-level convenience functions are planned for later R releases.
     a focus on enabling fast experimentation for convolutional networks,
     recurrent networks, any combination of both, and custom neural
     network architectures.
+  - The [RxODE](https://cran.r-project.org/package=RxODE) uses OpenMP and the soda
+    library to solve ODE systems in parallel.
+  - The [mvnfast](https://cran.r-project.org/package=mvnfast) uses the sumo random
+    number generator to generate multivariate and normal distribtuions
+    in parallel.
 
 **Parallel computing: GPUs**
 
@@ -536,6 +541,7 @@ higher-level convenience functions are planned for later R releases.
   - [lga](https://cran.r-project.org/package=lga)
   - [Matching](https://cran.r-project.org/package=Matching)
   - [MonetDB.R](https://cran.r-project.org/package=MonetDB.R)
+  - [mvnfast](https://cran.r-project.org/package=mvnfast)
   - [nws](https://cran.r-project.org/package=nws)
   - [OpenCL](https://cran.r-project.org/package=OpenCL)
   - [orloca](https://cran.r-project.org/package=orloca)
@@ -574,6 +580,7 @@ higher-level convenience functions are planned for later R releases.
   - [rredis](https://cran.r-project.org/package=rredis)
   - [rslurm](https://cran.r-project.org/package=rslurm)
   - [rstream](https://cran.r-project.org/package=rstream)
+  - [RxODE](https://cran.r-project.org/package=RxODE)
   - [Sim.DiffProc](https://cran.r-project.org/package=Sim.DiffProc)
   - [sitmo](https://cran.r-project.org/package=sitmo)
   - [snow](https://cran.r-project.org/package=snow) (core)

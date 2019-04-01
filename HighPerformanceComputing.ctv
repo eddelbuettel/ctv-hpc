@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2018-10-30</version>
+   <version>2019-04-01</version>
 
   <info>
     <p>
@@ -31,9 +31,9 @@
       Jochen Knaus, Tobias Verbeke, Hao Yu, David Rosenberg, Marco
       Enea, Ivo Welch, Jay Emerson, Wei-Chen Chen, Bill Cleveland, 
       Ross Boylan, Ramon Diaz-Uriarte, Mark Zeligman, Kevin Ushey, Graham
-      Jeffries, Will Landau, Tim Flutre, Reza Mohammadi, Ralf Stubner, and
-      Bob Jansen (as well as others I may have forgotten to add here) are
-      gratefully acknowledged.  
+      Jeffries, Will Landau, Tim Flutre, Reza Mohammadi, Ralf Stubner,
+      Bob Jansen, and Matt Fidler (as well as others I may have forgotten to
+      add here) are gratefully acknowledged.  
     </p>
     <p> 
       Contributions are always welcome, and encouraged. Since the start of
@@ -437,7 +437,14 @@
         recurrent networks, any combination of both, and custom neural
         network architectures.
       </li>
-        
+      <li>
+        The <pkg>RxODE</pkg> uses OpenMP and the soda library to solve ODE
+        systems in parallel. 
+      </li>
+      <li>
+        The <pkg>mvnfast</pkg> uses the sumo random number generator to
+        generate multivariate and normal distribtuions in parallel.
+      </li>
     </ul>
 
     <p>
@@ -658,6 +665,7 @@
     <pkg>lga</pkg>
     <pkg>Matching</pkg>
     <pkg>MonetDB.R</pkg>
+    <pkg>mvnfast</pkg>
     <pkg>nws</pkg>
     <pkg>orloca</pkg>
     <pkg>OpenCL</pkg>
@@ -696,6 +704,7 @@
     <pkg>rredis</pkg>
     <pkg>rslurm</pkg>
     <pkg>rstream</pkg>
+    <pkg>RxODE</pkg>
     <pkg>Sim.DiffProc</pkg>
     <pkg>sitmo</pkg>
     <pkg priority="core">snow</pkg>
