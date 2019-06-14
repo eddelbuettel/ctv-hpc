@@ -4,7 +4,7 @@
 --------------- ----------------------------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                                            
 **Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2019-04-01                                                   
+**Version:**    2019-06-14                                                   
 **URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 <div>
@@ -29,8 +29,9 @@ Martin Morgan, Max Kuhn, Tomas Radivoyevitch, Jochen Knaus, Tobias
 Verbeke, Hao Yu, David Rosenberg, Marco Enea, Ivo Welch, Jay Emerson,
 Wei-Chen Chen, Bill Cleveland, Ross Boylan, Ramon Diaz-Uriarte, Mark
 Zeligman, Kevin Ushey, Graham Jeffries, Will Landau, Tim Flutre, Reza
-Mohammadi, Ralf Stubner, Bob Jansen, and Matt Fidler (as well as others
-I may have forgotten to add here) are gratefully acknowledged.
+Mohammadi, Ralf Stubner, Bob Jansen, Matt Fidler, and Brent Brewington
+(as well as others I may have forgotten to add here) are gratefully
+acknowledged.
 
 Contributions are always welcome, and encouraged. Since the start of
 this CRAN task view in October 2008, most contributions have arrived as
@@ -349,8 +350,6 @@ higher-level convenience functions are planned for later R releases.
     large data. The package uses [pbdMPI](https://cran.r-project.org/package=pbdMPI)
     to perform a parallel version of the EM algorithm for finite mixture
     Gaussian models.
-  - The [harvestr](https://cran.r-project.org/package=harvestr) package provides
-    helper functions for (reproducible) simulations.
   - Nowadays, many packages can use the facilities offered by the
     **parallel** package. One example is
     [pls](https://cran.r-project.org/package=pls).
@@ -484,8 +483,9 @@ higher-level convenience functions are planned for later R releases.
 
 **Profiling tools**
 
-  - The [profr](https://cran.r-project.org/package=profr) package by Wickham can
-    visualize output from the `Rprof` interface for profiling.
+  - The [profr](https://cran.r-project.org/package=profr) and
+    [profviz](https://cran.r-project.org/package=profviz) packages can visualize
+    output from the `Rprof` interface for profiling.
   - The [proftools](https://cran.r-project.org/package=proftools) package by
     Tierney, and the [aprof](https://cran.r-project.org/package=aprof) package by
     Visser, can also be used to analyse profiling output.
@@ -532,7 +532,6 @@ higher-level convenience functions are planned for later R releases.
   - [GUIProfiler](https://cran.r-project.org/package=GUIProfiler)
   - [h2o](https://cran.r-project.org/package=h2o)
   - [HadoopStreaming](https://cran.r-project.org/package=HadoopStreaming)
-  - [harvestr](https://cran.r-project.org/package=harvestr)
   - [HistogramTools](https://cran.r-project.org/package=HistogramTools)
   - [inline](https://cran.r-project.org/package=inline)
   - [keras](https://cran.r-project.org/package=keras)
@@ -561,6 +560,7 @@ higher-level convenience functions are planned for later R releases.
   - [pmclust](https://cran.r-project.org/package=pmclust)
   - [profr](https://cran.r-project.org/package=profr)
   - [proftools](https://cran.r-project.org/package=proftools)
+  - [profviz](https://cran.r-project.org/package=profviz)
   - [pvclust](https://cran.r-project.org/package=pvclust)
   - [qsub](https://cran.r-project.org/package=qsub)
   - [randomForestSRC](https://cran.r-project.org/package=randomForestSRC)
