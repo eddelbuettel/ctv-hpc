@@ -4,7 +4,7 @@
 --------------- ----------------------------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                                            
 **Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2019-06-14                                                   
+**Version:**    2019-08-20                                                   
 **URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 <div>
@@ -364,8 +364,6 @@ higher-level convenience functions are planned for later R releases.
     a focus on enabling fast experimentation for convolutional networks,
     recurrent networks, any combination of both, and custom neural
     network architectures.
-  - The [RxODE](https://cran.r-project.org/package=RxODE) uses OpenMP and the soda
-    library to solve ODE systems in parallel.
   - The [mvnfast](https://cran.r-project.org/package=mvnfast) uses the sumo random
     number generator to generate multivariate and normal distribtuions
     in parallel.
@@ -452,6 +450,9 @@ higher-level convenience functions are planned for later R releases.
   - The [bigstatsr](https://cran.r-project.org/package=bigstatsr) package also
     operates on file-backed large matrices via memory-mapped access, and
     offeres several matrix operationc, PCA, sparse methods and more..
+  - The [disk.frame](https://cran.r-project.org/package=disk.frame) package permits
+    efficient (serial or parallel) operations on larger-than-memory
+    data.frame objects with full data.frame features.
 
 **Easier interfaces for Compiled code**
 
@@ -484,7 +485,7 @@ higher-level convenience functions are planned for later R releases.
 **Profiling tools**
 
   - The [profr](https://cran.r-project.org/package=profr) and
-    [profviz](https://cran.r-project.org/package=profviz) packages can visualize
+    [profvis](https://cran.r-project.org/package=profvis) packages can visualize
     output from the `Rprof` interface for profiling.
   - The [proftools](https://cran.r-project.org/package=proftools) package by
     Tierney, and the [aprof](https://cran.r-project.org/package=aprof) package by
@@ -512,6 +513,7 @@ higher-level convenience functions are planned for later R releases.
   - [clustermq](https://cran.r-project.org/package=clustermq)
   - [data.table](https://cran.r-project.org/package=data.table)
   - [dclone](https://cran.r-project.org/package=dclone)
+  - [disk.frame](https://cran.r-project.org/package=disk.frame)
   - [doFuture](https://cran.r-project.org/package=doFuture)
   - [doMC](https://cran.r-project.org/package=doMC)
   - [doMPI](https://cran.r-project.org/package=doMPI)
@@ -560,7 +562,7 @@ higher-level convenience functions are planned for later R releases.
   - [pmclust](https://cran.r-project.org/package=pmclust)
   - [profr](https://cran.r-project.org/package=profr)
   - [proftools](https://cran.r-project.org/package=proftools)
-  - [profviz](https://cran.r-project.org/package=profviz)
+  - [profvis](https://cran.r-project.org/package=profvis)
   - [pvclust](https://cran.r-project.org/package=pvclust)
   - [qsub](https://cran.r-project.org/package=qsub)
   - [randomForestSRC](https://cran.r-project.org/package=randomForestSRC)
@@ -580,7 +582,6 @@ higher-level convenience functions are planned for later R releases.
   - [rredis](https://cran.r-project.org/package=rredis)
   - [rslurm](https://cran.r-project.org/package=rslurm)
   - [rstream](https://cran.r-project.org/package=rstream)
-  - [RxODE](https://cran.r-project.org/package=RxODE)
   - [Sim.DiffProc](https://cran.r-project.org/package=Sim.DiffProc)
   - [sitmo](https://cran.r-project.org/package=sitmo)
   - [snow](https://cran.r-project.org/package=snow) (core)
