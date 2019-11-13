@@ -4,7 +4,7 @@
 --------------- ----------------------------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                                            
 **Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2019-08-20                                                   
+**Version:**    2019-11-13                                                   
 **URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 <div>
@@ -367,6 +367,9 @@ higher-level convenience functions are planned for later R releases.
   - The [mvnfast](https://cran.r-project.org/package=mvnfast) uses the sumo random
     number generator to generate multivariate and normal distribtuions
     in parallel.
+  - The [RxODE](https://cran.r-project.org/package=RxODE) package solves ordinary
+    differential equations in in parallel via the OpenMP library
+    liblsoda.
 
 **Parallel computing: GPUs**
 
@@ -582,6 +585,7 @@ higher-level convenience functions are planned for later R releases.
   - [rredis](https://cran.r-project.org/package=rredis)
   - [rslurm](https://cran.r-project.org/package=rslurm)
   - [rstream](https://cran.r-project.org/package=rstream)
+  - [RxODE](https://cran.r-project.org/package=RxODE)
   - [Sim.DiffProc](https://cran.r-project.org/package=Sim.DiffProc)
   - [sitmo](https://cran.r-project.org/package=sitmo)
   - [snow](https://cran.r-project.org/package=snow) (core)

@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2019-08-20</version>
+   <version>2019-11-13</version>
 
   <info>
     <p>
@@ -438,6 +438,10 @@
         The <pkg>mvnfast</pkg> uses the sumo random number generator to
         generate multivariate and normal distribtuions in parallel.
       </li>
+      <li>
+        The <pkg>RxODE</pkg> package solves ordinary differential equations
+        in in parallel via the OpenMP library liblsoda.
+      </li>
     </ul>
 
     <p>
@@ -702,6 +706,7 @@
     <pkg>rredis</pkg>
     <pkg>rslurm</pkg>
     <pkg>rstream</pkg>
+    <pkg>RxODE</pkg>
     <pkg>Sim.DiffProc</pkg>
     <pkg>sitmo</pkg>
     <pkg priority="core">snow</pkg>
