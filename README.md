@@ -4,7 +4,7 @@
 --------------- ----------------------------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                                            
 **Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2019-11-13                                                   
+**Version:**    2020-02-10                                                   
 **URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 <div>
@@ -83,14 +83,10 @@ higher-level convenience functions are planned for later R releases.
     scalable linear algebra packages (namely BLACS, PBLAS, and
     ScaLAPACK) in double precision based on ScaLAPACK version 2.0.2. The
     [pbdBASE](https://cran.r-project.org/package=pbdBASE) builds on these and
-    provides the core classes and methods for distributed data types
-    upon which the [pbdDMAT](https://cran.r-project.org/package=pbdDMAT) builds to
-    provide distributed dense matrices for "Programming with Big Data".
+    provides the core classes and methods for distributed data types.
     The [pbdNCDF4](https://cran.r-project.org/package=pbdNCDF4) package permits
     multiple processes to write to the same file (without manual
     synchronization) and supports terabyte-sized files. The
-    [pbdDEMO](https://cran.r-project.org/package=pbdDEMO) package provides examples
-    for these packages, and a detailed vignette. The
     [pbdPROF](https://cran.r-project.org/package=pbdPROF) package profiles MPI
     communication SPMD code via MPI profiling libraries, such as fpmpi,
     mpiP, or TAU.
@@ -162,7 +158,7 @@ higher-level convenience functions are planned for later R releases.
     [slides](http://www.statistik.tu-dortmund.de/useR-2008/slides/Jamitzky.pdf)
     ) and offers another interface to OpenMP using Fortran. The code is
     still pre-alpha and available from the Google Code project
-    [<span class="Gcode">romp</span>](https://code.google.com/p/romp/).
+    [<span class="Gcode">romp</span>](https://code.google.com/archive/p/romp/).
     An R-Forge project
     [<span class="Rforge">romp</span>](https://R-Forge.R-project.org/projects/romp/)
     was initiated but there is no package, yet.
@@ -307,12 +303,10 @@ higher-level convenience functions are planned for later R releases.
     package by Scutari for bayesian network structure learning, the
     [latentnet](https://cran.r-project.org/package=latentnet) package by Krivitsky
     and Handcock for latent position and cluster models, the
-    [lga](https://cran.r-project.org/package=lga) package by Harrington for linear
-    grouping analysis, the [peperr](https://cran.r-project.org/package=peperr)
-    package by Porzelius and Binder for parallelised estimation of
-    prediction error, the [orloca](https://cran.r-project.org/package=orloca)
-    package by Fernandez-Palacin and Munoz-Marquez for operations
-    research locational analysis, the
+    [peperr](https://cran.r-project.org/package=peperr) package by Porzelius and
+    Binder for parallelised estimation of prediction error, the
+    [orloca](https://cran.r-project.org/package=orloca) package by Fernandez-Palacin
+    and Munoz-Marquez for operations research locational analysis, the
     [rgenoud](https://cran.r-project.org/package=rgenoud) package by Mebane and
     Sekhon for genetic optimization using derivatives the
     [<span class="BioC">affyPara</span>](https://www.Bioconductor.ohttps://cran.r-project.org/package=release/bioc/html/affyPara.html)
@@ -325,7 +319,7 @@ higher-level convenience functions are planned for later R releases.
     using either one of the MPI, PVM, NWS or socket protocols supported
     by [snow](https://cran.r-project.org/package=snow).
   - The
-    [<span class="Gcode">bugsparallel</span>](https://code.google.com/p/bugsparallel/)
+    [<span class="Gcode">bugsparallel</span>](https://code.google.com/archive/p/bugsparallel/)
     package uses [Rmpi](https://cran.r-project.org/package=Rmpi) for distributed
     computing of multiple MCMC chains using WinBUGS.
   - The [xgboost](https://cran.r-project.org/package=xgboost) package by Chen et al.
@@ -345,11 +339,6 @@ higher-level convenience functions are planned for later R releases.
     cloning and Bayesian Markov chain Monte Carlo methods with support
     for JAGS, WinBUGS and OpenBUGS; parallel computing is supported via
     the [snow](https://cran.r-project.org/package=snow) package.
-  - The [pmclust](https://cran.r-project.org/package=pmclust) package utilizes
-    unsupervised model-based clustering for high dimensional (ultra)
-    large data. The package uses [pbdMPI](https://cran.r-project.org/package=pbdMPI)
-    to perform a parallel version of the EM algorithm for finite mixture
-    Gaussian models.
   - Nowadays, many packages can use the facilities offered by the
     **parallel** package. One example is
     [pls](https://cran.r-project.org/package=pls).
@@ -453,9 +442,6 @@ higher-level convenience functions are planned for later R releases.
   - The [bigstatsr](https://cran.r-project.org/package=bigstatsr) package also
     operates on file-backed large matrices via memory-mapped access, and
     offeres several matrix operationc, PCA, sparse methods and more..
-  - The [disk.frame](https://cran.r-project.org/package=disk.frame) package permits
-    efficient (serial or parallel) operations on larger-than-memory
-    data.frame objects with full data.frame features.
 
 **Easier interfaces for Compiled code**
 
@@ -516,7 +502,6 @@ higher-level convenience functions are planned for later R releases.
   - [clustermq](https://cran.r-project.org/package=clustermq)
   - [data.table](https://cran.r-project.org/package=data.table)
   - [dclone](https://cran.r-project.org/package=dclone)
-  - [disk.frame](https://cran.r-project.org/package=disk.frame)
   - [doFuture](https://cran.r-project.org/package=doFuture)
   - [doMC](https://cran.r-project.org/package=doMC)
   - [doMPI](https://cran.r-project.org/package=doMPI)
@@ -542,7 +527,6 @@ higher-level convenience functions are planned for later R releases.
   - [keras](https://cran.r-project.org/package=keras)
   - [LaF](https://cran.r-project.org/package=LaF)
   - [latentnet](https://cran.r-project.org/package=latentnet)
-  - [lga](https://cran.r-project.org/package=lga)
   - [Matching](https://cran.r-project.org/package=Matching)
   - [MonetDB.R](https://cran.r-project.org/package=MonetDB.R)
   - [mvnfast](https://cran.r-project.org/package=mvnfast)
@@ -553,8 +537,6 @@ higher-level convenience functions are planned for later R releases.
   - [partDSA](https://cran.r-project.org/package=partDSA)
   - [pbapply](https://cran.r-project.org/package=pbapply)
   - [pbdBASE](https://cran.r-project.org/package=pbdBASE)
-  - [pbdDEMO](https://cran.r-project.org/package=pbdDEMO)
-  - [pbdDMAT](https://cran.r-project.org/package=pbdDMAT)
   - [pbdMPI](https://cran.r-project.org/package=pbdMPI)
   - [pbdNCDF4](https://cran.r-project.org/package=pbdNCDF4)
   - [pbdPROF](https://cran.r-project.org/package=pbdPROF)
@@ -562,7 +544,6 @@ higher-level convenience functions are planned for later R releases.
   - [peperr](https://cran.r-project.org/package=peperr)
   - [permGPU](https://cran.r-project.org/package=permGPU)
   - [pls](https://cran.r-project.org/package=pls)
-  - [pmclust](https://cran.r-project.org/package=pmclust)
   - [profr](https://cran.r-project.org/package=profr)
   - [proftools](https://cran.r-project.org/package=proftools)
   - [profvis](https://cran.r-project.org/package=profvis)
@@ -623,9 +604,9 @@ higher-level convenience functions are planned for later R releases.
   - Bioconductor Package:
     [<span class="BioC">puma</span>](https://www.Bioconductor.ohttps://cran.r-project.org/package=release/bioc/html/puma.html)
   - Google Code Project:
-    [<span class="Gcode">romp</span>](https://code.google.com/p/romp/)
+    [<span class="Gcode">romp</span>](https://code.google.com/archive/p/romp/)
   - Google Code Project:
-    [<span class="Gcode">bugsparallel</span>](https://code.google.com/p/bugsparallel/)
+    [<span class="Gcode">bugsparallel</span>](https://code.google.com/archive/p/bugsparallel/)
   - [Slurm open-source workload manager](http://slurm.schedmd.com/)
   - [Condor project at University of
     Wisconsin-Madison](http://www.cs.wisc.edu/condor/)

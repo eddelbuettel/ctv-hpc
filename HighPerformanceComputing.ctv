@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2019-11-13</version>
+   <version>2020-02-10</version>
 
   <info>
     <p>
@@ -97,13 +97,9 @@
 	packages (namely BLACS, PBLAS, and ScaLAPACK) in double precision based 
 	on ScaLAPACK version 2.0.2. 
 	The <pkg>pbdBASE</pkg> builds on these and provides the core classes
-        and methods for distributed data types upon which the 
-	<pkg>pbdDMAT</pkg> builds to provide distributed dense matrices for "Programming 
-	with Big Data". The <pkg>pbdNCDF4</pkg> package permits
+        and methods for distributed data types. The <pkg>pbdNCDF4</pkg> package permits
 	multiple processes to write to the same file (without manual
 	synchronization) and supports terabyte-sized files.
-	The <pkg>pbdDEMO</pkg> package provides examples for these
-	packages, and a detailed vignette.
         The <pkg>pbdPROF</pkg> package profiles MPI communication SPMD code
         via MPI profiling libraries, such as fpmpi, mpiP, or TAU.
       </li>
@@ -371,7 +367,6 @@
 	structure learning,
 	the <pkg>latentnet</pkg> package by Krivitsky and Handcock for latent
 	position and cluster models,
-	the <pkg>lga</pkg> package by Harrington for linear grouping analysis,
 	the <pkg>peperr</pkg> package by Porzelius and Binder for parallelised
 	estimation of prediction error,
 	the <pkg>orloca</pkg> package by Fernandez-Palacin and Munoz-Marquez
@@ -407,11 +402,6 @@
 	chain Monte Carlo methods with support for JAGS, WinBUGS and
 	OpenBUGS; parallel computing is supported via the <pkg>snow</pkg>
 	package.
-      </li>
-      <li>The <pkg>pmclust</pkg> package utilizes unsupervised model-based
-        clustering for high dimensional (ultra) large data. The package uses
-	<pkg>pbdMPI</pkg> to perform a parallel version of the EM algorithm for
-	finite mixture Gaussian models.
       </li>
       <li>
         Nowadays, many packages can use the facilities offered by
@@ -553,10 +543,6 @@
         matrices via memory-mapped access, and offeres several matrix
         operationc, PCA, sparse methods and more..
       </li>
-      <li>The <pkg>disk.frame</pkg> package permits efficient (serial or
-        parallel) operations on larger-than-memory data.frame objects with full
-        data.frame features.
-      </li>
     </ul>
 
     <p>
@@ -636,7 +622,6 @@
     <pkg>caret</pkg>
     <pkg>clustermq</pkg>
     <pkg>data.table</pkg>
-    <pkg>disk.frame</pkg>
     <pkg>dclone</pkg>
     <pkg>doFuture</pkg>
     <pkg>doMC</pkg>
@@ -663,7 +648,6 @@
     <pkg>keras</pkg>
     <pkg>LaF</pkg>
     <pkg>latentnet</pkg>
-    <pkg>lga</pkg>
     <pkg>Matching</pkg>
     <pkg>MonetDB.R</pkg>
     <pkg>mvnfast</pkg>
@@ -674,8 +658,6 @@
     <pkg>partDSA</pkg>
     <pkg>pbapply</pkg>    
     <pkg>pbdBASE</pkg>
-    <pkg>pbdDEMO</pkg>
-    <pkg>pbdDMAT</pkg>
     <pkg>pbdPROF</pkg>
     <pkg>pbdMPI</pkg>
     <pkg>pbdNCDF4</pkg>
@@ -683,7 +665,6 @@
     <pkg>peperr</pkg>
     <pkg>permGPU</pkg>
     <pkg>pls</pkg>
-    <pkg>pmclust</pkg>
     <pkg>profr</pkg>
     <pkg>proftools</pkg>
     <pkg>profvis</pkg>
