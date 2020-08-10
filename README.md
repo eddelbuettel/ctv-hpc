@@ -4,7 +4,7 @@
 --------------- ----------------------------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                                            
 **Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2020-02-10                                                   
+**Version:**    2020-08-10                                                   
 **URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 <div>
@@ -29,9 +29,9 @@ Martin Morgan, Max Kuhn, Tomas Radivoyevitch, Jochen Knaus, Tobias
 Verbeke, Hao Yu, David Rosenberg, Marco Enea, Ivo Welch, Jay Emerson,
 Wei-Chen Chen, Bill Cleveland, Ross Boylan, Ramon Diaz-Uriarte, Mark
 Zeligman, Kevin Ushey, Graham Jeffries, Will Landau, Tim Flutre, Reza
-Mohammadi, Ralf Stubner, Bob Jansen, Matt Fidler, and Brent Brewington
-(as well as others I may have forgotten to add here) are gratefully
-acknowledged.
+Mohammadi, Ralf Stubner, Bob Jansen, Matt Fidler, Brent Brewington and
+Ben Bolder (as well as others I may have forgotten to add here) are
+gratefully acknowledged.
 
 Contributions are always welcome, and encouraged. Since the start of
 this CRAN task view in October 2008, most contributions have arrived as
@@ -158,7 +158,7 @@ higher-level convenience functions are planned for later R releases.
     [slides](http://www.statistik.tu-dortmund.de/useR-2008/slides/Jamitzky.pdf)
     ) and offers another interface to OpenMP using Fortran. The code is
     still pre-alpha and available from the Google Code project
-    [<span class="Gcode">romp</span>](https://code.google.com/archive/p/romp/).
+    [<span class="Gcode">romp</span>](https://code.google.com/p/romp/).
     An R-Forge project
     [<span class="Rforge">romp</span>](https://R-Forge.R-project.org/projects/romp/)
     was initiated but there is no package, yet.
@@ -319,7 +319,7 @@ higher-level convenience functions are planned for later R releases.
     using either one of the MPI, PVM, NWS or socket protocols supported
     by [snow](https://cran.r-project.org/package=snow).
   - The
-    [<span class="Gcode">bugsparallel</span>](https://code.google.com/archive/p/bugsparallel/)
+    [<span class="Gcode">bugsparallel</span>](https://code.google.com/p/bugsparallel/)
     package uses [Rmpi](https://cran.r-project.org/package=Rmpi) for distributed
     computing of multiple MCMC chains using WinBUGS.
   - The [xgboost](https://cran.r-project.org/package=xgboost) package by Chen et al.
@@ -372,10 +372,6 @@ higher-level convenience functions are planned for later R releases.
   - The [permGPU](https://cran.r-project.org/package=permGPU) package computes
     permutation resampling inference in the context of RNA microarray
     studies on the GPU, it uses CUDA (\>= 4.5)
-  - The [gpuR](https://cran.r-project.org/package=gpuR) package offers GPU-enabled
-    functions: New gpu\* and vcl\* classes are provided to wrap typical
-    R objects (e.g. vector, matrix) mirroring typical R syntax without
-    the need to know OpenCL.
   - The [tensorflow](https://cran.r-project.org/package=tensorflow) package by by
     Allaire et al. provides access to the complete TensorFlow API from
     within R that enables numerical computation using data flow graphs.
@@ -427,10 +423,6 @@ higher-level convenience functions are planned for later R releases.
     update.speedlm() which can update fitted models with new data. For
     out-of-memory data sets, shglm() is available; it works in the
     presence of factors and can check for singular matrices.
-  - The [biglars](https://cran.r-project.org/package=biglars) package by Seligman et
-    al can use the [ff](https://cran.r-project.org/package=ff) to support
-    large-than-memory datasets for least-angle regression, lasso and
-    stepwise regression.
   - The [MonetDB.R](https://cran.r-project.org/package=MonetDB.R) package allows R
     to access the MonetDB column-oriented, open source database system
     as a backend.
@@ -442,6 +434,9 @@ higher-level convenience functions are planned for later R releases.
   - The [bigstatsr](https://cran.r-project.org/package=bigstatsr) package also
     operates on file-backed large matrices via memory-mapped access, and
     offeres several matrix operationc, PCA, sparse methods and more..
+  - The [disk.frame](https://cran.r-project.org/package=disk.frame) package
+    leverages several other packages to provide efficient access and
+    manipulation operations for data sets that are larger than RAM.
 
 **Easier interfaces for Compiled code**
 
@@ -493,7 +488,6 @@ higher-level convenience functions are planned for later R releases.
   - [batchtools](https://cran.r-project.org/package=batchtools)
   - [bcp](https://cran.r-project.org/package=bcp)
   - [BDgraph](https://cran.r-project.org/package=BDgraph)
-  - [biglars](https://cran.r-project.org/package=biglars)
   - [biglm](https://cran.r-project.org/package=biglm)
   - [bigmemory](https://cran.r-project.org/package=bigmemory)
   - [bigstatsr](https://cran.r-project.org/package=bigstatsr)
@@ -502,6 +496,7 @@ higher-level convenience functions are planned for later R releases.
   - [clustermq](https://cran.r-project.org/package=clustermq)
   - [data.table](https://cran.r-project.org/package=data.table)
   - [dclone](https://cran.r-project.org/package=dclone)
+  - [disk.frame](https://cran.r-project.org/package=disk.frame)
   - [doFuture](https://cran.r-project.org/package=doFuture)
   - [doMC](https://cran.r-project.org/package=doMC)
   - [doMPI](https://cran.r-project.org/package=doMPI)
@@ -518,7 +513,6 @@ higher-level convenience functions are planned for later R releases.
   - [future.BatchJobs](https://cran.r-project.org/package=future.BatchJobs)
   - [GAMBoost](https://cran.r-project.org/package=GAMBoost)
   - [gcbd](https://cran.r-project.org/package=gcbd)
-  - [gpuR](https://cran.r-project.org/package=gpuR)
   - [GUIProfiler](https://cran.r-project.org/package=GUIProfiler)
   - [h2o](https://cran.r-project.org/package=h2o)
   - [HadoopStreaming](https://cran.r-project.org/package=HadoopStreaming)
@@ -604,9 +598,9 @@ higher-level convenience functions are planned for later R releases.
   - Bioconductor Package:
     [<span class="BioC">puma</span>](https://www.Bioconductor.ohttps://cran.r-project.org/package=release/bioc/html/puma.html)
   - Google Code Project:
-    [<span class="Gcode">romp</span>](https://code.google.com/archive/p/romp/)
+    [<span class="Gcode">romp</span>](https://code.google.com/p/romp/)
   - Google Code Project:
-    [<span class="Gcode">bugsparallel</span>](https://code.google.com/archive/p/bugsparallel/)
+    [<span class="Gcode">bugsparallel</span>](https://code.google.com/p/bugsparallel/)
   - [Slurm open-source workload manager](http://slurm.schedmd.com/)
   - [Condor project at University of
     Wisconsin-Madison](http://www.cs.wisc.edu/condor/)
