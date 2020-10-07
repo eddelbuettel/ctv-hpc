@@ -4,7 +4,7 @@
 --------------- ----------------------------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                                            
 **Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2020-08-10                                                   
+**Version:**    2020-10-07                                                   
 **URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 <div>
@@ -178,6 +178,11 @@ higher-level convenience functions are planned for later R releases.
     [Makefiles](https://www.gnu.org/software/make) . Drake uses code
     analysis to configure the user's workflow and make the parallelism
     implicit.
+  - The [flexiblas](https://cran.r-project.org/package=flexiblas) package manages
+    BLAS/LAPACK libraries by loading and possibly switching them if
+    FlexiBLAS (
+    [link](https://www.mpi-magdeburg.mpg.de/projects/flexiblas) ) is
+    used.
 
 **Parallel computing: Grid computing**
 
@@ -507,6 +512,7 @@ higher-level convenience functions are planned for later R releases.
   - [drake](https://cran.r-project.org/package=drake)
   - [ff](https://cran.r-project.org/package=ff)
   - [ffbase](https://cran.r-project.org/package=ffbase)
+  - [flexiblas](https://cran.r-project.org/package=flexiblas)
   - [flowr](https://cran.r-project.org/package=flowr)
   - [foreach](https://cran.r-project.org/package=foreach)
   - [future](https://cran.r-project.org/package=future)
