@@ -169,6 +169,13 @@ higher-level convenience functions are planned for later R releases.
   - The [RhpcBLASctl](https://cran.r-project.org/package=RhpcBLASctl) package
     detects the number of available BLAS cores, and permits explicit
     selection of the number of cores.
+  - The [flexiblas](https://cran.r-project.org/package=flexiblas) package enables
+    the management of BLAS/LAPACK optimized backends (which includes
+    loading them, adding new ones, and live switching) when the R
+    session uses the FlexiBLAS library (
+    [link](https://www.mpi-magdeburg.mpg.de/projects/flexiblas) ). It
+    also permits detection and explicit selection of the number of BLAS
+    cores.
   - The [Rhpc](https://cran.r-project.org/package=Rhpc) permits `*apply()` style
     dispatch via MPI.
   - The [drake](https://cran.r-project.org/package=drake) package is an R-focused
@@ -507,6 +514,7 @@ higher-level convenience functions are planned for later R releases.
   - [drake](https://cran.r-project.org/package=drake)
   - [ff](https://cran.r-project.org/package=ff)
   - [ffbase](https://cran.r-project.org/package=ffbase)
+  - [flexiblas](https://cran.r-project.org/package=flexiblas)
   - [flowr](https://cran.r-project.org/package=flowr)
   - [foreach](https://cran.r-project.org/package=foreach)
   - [future](https://cran.r-project.org/package=future)

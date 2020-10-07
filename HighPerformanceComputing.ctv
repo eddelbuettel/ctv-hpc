@@ -192,6 +192,13 @@
         cores.
       </li>
       <li>
+        The <pkg>flexiblas</pkg> package enables the management of BLAS/LAPACK
+        optimized backends (which includes loading them, adding new ones, and
+        live switching) when the R session uses the FlexiBLAS library
+        (<a href="https://www.mpi-magdeburg.mpg.de/projects/flexiblas">link</a>).
+        It also permits detection and explicit selection of the number of BLAS cores.
+      </li>
+      <li>
         The <pkg>Rhpc</pkg> permits <code>*apply()</code> style dispatch via MPI.
       </li>
       <li>
@@ -627,6 +634,7 @@
     <pkg>drake</pkg>
     <pkg>ff</pkg>
     <pkg>ffbase</pkg>
+    <pkg>flexiblas</pkg>
     <pkg>flowr</pkg>
     <pkg>foreach</pkg>
     <pkg>future</pkg>
