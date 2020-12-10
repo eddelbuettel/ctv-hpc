@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2020-10-07</version>
+   <version>2020-10-29</version>
 
   <info>
     <p>
@@ -97,9 +97,7 @@
 	packages (namely BLACS, PBLAS, and ScaLAPACK) in double precision based 
 	on ScaLAPACK version 2.0.2. 
 	The <pkg>pbdBASE</pkg> builds on these and provides the core classes
-        and methods for distributed data types. The <pkg>pbdNCDF4</pkg> package permits
-	multiple processes to write to the same file (without manual
-	synchronization) and supports terabyte-sized files.
+        and methods for distributed data types.
         The <pkg>pbdPROF</pkg> package profiles MPI communication SPMD code
         via MPI profiling libraries, such as fpmpi, mpiP, or TAU.
       </li>
@@ -365,9 +363,7 @@
 	resampling-based testing of multiple hypothesis.
       </li>
       <li>
-	The <pkg>GAMBoost</pkg> package by Binder for <code>glm</code>
-	and <code>gam</code> model fitting via boosting using b-splines,
-	the <pkg>Matching</pkg> package by Sekhon for multivariate and propensity
+	The <pkg>Matching</pkg> package by Sekhon for multivariate and propensity
 	score matching,
 	the <pkg>STAR</pkg> package by Pouzat for spike train analysis,
 	the <pkg>bnlearn</pkg> package by Scutari for bayesian network
@@ -434,10 +430,6 @@
       <li>
         The <pkg>mvnfast</pkg> uses the sumo random number generator to
         generate multivariate and normal distribtuions in parallel.
-      </li>
-      <li>
-        The <pkg>RxODE</pkg> package solves ordinary differential equations
-        in in parallel via the OpenMP library liblsoda.
       </li>
     </ul>
 
@@ -639,7 +631,6 @@
     <pkg>foreach</pkg>
     <pkg>future</pkg>
     <pkg>future.BatchJobs</pkg>
-    <pkg>GAMBoost</pkg>
     <pkg>gcbd</pkg>
     <pkg>GUIProfiler</pkg>
     <pkg>h2o</pkg>
@@ -661,7 +652,6 @@
     <pkg>pbdBASE</pkg>
     <pkg>pbdPROF</pkg>
     <pkg>pbdMPI</pkg>
-    <pkg>pbdNCDF4</pkg>
     <pkg>pbdSLAP</pkg>
     <pkg>peperr</pkg>
     <pkg>permGPU</pkg>
@@ -688,7 +678,6 @@
     <pkg>rredis</pkg>
     <pkg>rslurm</pkg>
     <pkg>rstream</pkg>
-    <pkg>RxODE</pkg>
     <pkg>Sim.DiffProc</pkg>
     <pkg>sitmo</pkg>
     <pkg priority="core">snow</pkg>
