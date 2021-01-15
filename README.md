@@ -3,7 +3,7 @@
                                                                              
 **Maintainer:** Dirk Eddelbuettel                                            
 **Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2020-10-29                                                   
+**Version:**    2021-01-13                                                   
 **URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 <div>
@@ -109,12 +109,9 @@ higher-level convenience functions are planned for later R releases.
     single workstations), [doSNOW](https://cran.r-project.org/package=doSNOW) (using
     [snow](https://cran.r-project.org/package=snow), see above),
     [doMPI](https://cran.r-project.org/package=doMPI) (using
-    [Rmpi](https://cran.r-project.org/package=Rmpi)) packages,
+    [Rmpi](https://cran.r-project.org/package=Rmpi)) packages, and
     [doFuture](https://cran.r-project.org/package=doFuture) (using
-    [future](https://cran.r-project.org/package=future) or
-    [future.BatchJobs](https://cran.r-project.org/package=future.BatchJobs)), and
-    [doRedis](https://cran.r-project.org/package=doRedis) (using
-    [rredis](https://cran.r-project.org/package=rredis)) packages.
+    [future](https://cran.r-project.org/package=future)) packages.
 -   The [future](https://cran.r-project.org/package=future) package allows for
     synchronous (sequential) and asynchronous (parallel) evaluations via
     abstraction of futures, either via function calls or implicitly via
@@ -496,7 +493,6 @@ higher-level convenience functions are planned for later R releases.
 -   [doFuture](https://cran.r-project.org/package=doFuture)
 -   [doMC](https://cran.r-project.org/package=doMC)
 -   [doMPI](https://cran.r-project.org/package=doMPI)
--   [doRedis](https://cran.r-project.org/package=doRedis)
 -   [doRNG](https://cran.r-project.org/package=doRNG)
 -   [doSNOW](https://cran.r-project.org/package=doSNOW)
 -   [dqrng](https://cran.r-project.org/package=dqrng)
@@ -507,7 +503,6 @@ higher-level convenience functions are planned for later R releases.
 -   [flowr](https://cran.r-project.org/package=flowr)
 -   [foreach](https://cran.r-project.org/package=foreach)
 -   [future](https://cran.r-project.org/package=future)
--   [future.BatchJobs](https://cran.r-project.org/package=future.BatchJobs)
 -   [gcbd](https://cran.r-project.org/package=gcbd)
 -   [GUIProfiler](https://cran.r-project.org/package=GUIProfiler)
 -   [h2o](https://cran.r-project.org/package=h2o)

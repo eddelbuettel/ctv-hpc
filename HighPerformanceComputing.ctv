@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2020-10-29</version>
+   <version>2021-01-13</version>
 
   <info>
     <p>
@@ -122,10 +122,8 @@
 	executing the loop in parallel which is possible via
 	the <pkg>doMC</pkg> (using parallel/multicore on single
 	workstations), <pkg>doSNOW</pkg> (using <pkg>snow</pkg>, see
-	above), <pkg>doMPI</pkg> (using <pkg>Rmpi</pkg>) packages,
-        <pkg>doFuture</pkg> (using <pkg>future</pkg> or
-        <pkg>future.BatchJobs</pkg>), and
-	<pkg>doRedis</pkg> (using <pkg>rredis</pkg>) packages.
+	above), <pkg>doMPI</pkg> (using <pkg>Rmpi</pkg>) packages, and
+        <pkg>doFuture</pkg> (using <pkg>future</pkg>) packages.
       </li>
       <li>The <pkg>future</pkg> package allows for synchronous (sequential)
         and asynchronous (parallel) evaluations via abstraction of futures,
@@ -619,7 +617,6 @@
     <pkg>doFuture</pkg>
     <pkg>doMC</pkg>
     <pkg>doMPI</pkg>
-    <pkg>doRedis</pkg>
     <pkg>doRNG</pkg>
     <pkg>doSNOW</pkg>
     <pkg>dqrng</pkg>
@@ -630,7 +627,6 @@
     <pkg>flowr</pkg>
     <pkg>foreach</pkg>
     <pkg>future</pkg>
-    <pkg>future.BatchJobs</pkg>
     <pkg>gcbd</pkg>
     <pkg>GUIProfiler</pkg>
     <pkg>h2o</pkg>
