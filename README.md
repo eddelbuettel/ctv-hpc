@@ -151,8 +151,8 @@ higher-level convenience functions are planned for later R releases.
     [slides](http://www.statistik.tu-dortmund.de/useR-2008/slides/Jamitzky.pdf)
     ) and offers another interface to OpenMP using Fortran. The code is
     still pre-alpha and available from the Google Code project [<span
-    class="Gcode">romp</span>](https://code.google.com/p/romp/). An
-    R-Forge project [<span
+    class="Gcode">romp</span>](https://code.google.com/archive/p/romp/).
+    An R-Forge project [<span
     class="Rforge">romp</span>](https://R-Forge.R-project.org/projects/romp/)
     was initiated but there is no package, yet.
 -   The [Rdsm](https://cran.r-project.org/package=Rdsm) package provides a
@@ -315,7 +315,7 @@ higher-level convenience functions are planned for later R releases.
     using either one of the MPI, PVM, NWS or socket protocols supported
     by [snow](https://cran.r-project.org/package=snow).
 -   The [<span
-    class="Gcode">bugsparallel</span>](https://code.google.com/p/bugsparallel/)
+    class="Gcode">bugsparallel</span>](https://code.google.com/archive/p/bugsparallel/)
     package uses [Rmpi](https://cran.r-project.org/package=Rmpi) for distributed
     computing of multiple MCMC chains using WinBUGS.
 -   The [xgboost](https://cran.r-project.org/package=xgboost) package by Chen et al.
@@ -587,9 +587,9 @@ higher-level convenience functions are planned for later R releases.
 -   Bioconductor Package: [<span
     class="BioC">puma</span>](https://www.Bioconductor.ohttps://cran.r-project.org/package=release/bioc/html/puma.html)
 -   Google Code Project: [<span
-    class="Gcode">romp</span>](https://code.google.com/p/romp/)
+    class="Gcode">romp</span>](https://code.google.com/archive/p/romp/)
 -   Google Code Project: [<span
-    class="Gcode">bugsparallel</span>](https://code.google.com/p/bugsparallel/)
+    class="Gcode">bugsparallel</span>](https://code.google.com/archive/p/bugsparallel/)
 -   [Slurm open-source workload manager](http://slurm.schedmd.com/)
 -   [Condor project at University of
     Wisconsin-Madison](http://www.cs.wisc.edu/condor/)
