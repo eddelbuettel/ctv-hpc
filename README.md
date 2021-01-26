@@ -3,7 +3,7 @@
                                                                              
 **Maintainer:** Dirk Eddelbuettel                                            
 **Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2021-01-13                                                   
+**Version:**    2021-01-26                                                   
 **URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 <div>
@@ -164,13 +164,13 @@ higher-level convenience functions are planned for later R releases.
     selection of the number of cores.
 -   The [Rhpc](https://cran.r-project.org/package=Rhpc) permits `*apply()` style
     dispatch via MPI.
--   The [drake](https://cran.r-project.org/package=drake) package is an R-focused
-    pipeline similar to [Make](https://www.gnu.org/software/make) .
-    Parallel computing relies on the `parallel`, `future`, `batchtools`,
-    and `future.batchtools` packages, as well as
-    [Makefiles](https://www.gnu.org/software/make) . Drake uses code
-    analysis to configure the user's workflow and make the parallelism
-    implicit.
+-   The [targets](https://cran.r-project.org/package=targets) package and its
+    predecessor [drake](https://cran.r-project.org/package=drake) are R-focused
+    pipeline toolkits similar to
+    [Make](https://www.gnu.org/software/make) . Each constructs a
+    directed acyclic graph representation of the workflow and
+    orchestrates distributed computing across `clustermq` and `future`
+    workers.
 -   The [flexiblas](https://cran.r-project.org/package=flexiblas) package manages
     BLAS/LAPACK libraries by loading and possibly switching them if
     FlexiBLAS (
@@ -559,6 +559,7 @@ higher-level convenience functions are planned for later R releases.
 -   [sqldf](https://cran.r-project.org/package=sqldf)
 -   [ssgraph](https://cran.r-project.org/package=ssgraph)
 -   [STAR](https://cran.r-project.org/package=STAR)
+-   [targets](https://cran.r-project.org/package=targets)
 -   [tensorflow](https://cran.r-project.org/package=tensorflow)
 -   [tfestimators](https://cran.r-project.org/package=tfestimators)
 -   [tm](https://cran.r-project.org/package=tm)
