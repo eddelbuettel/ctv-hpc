@@ -580,19 +580,18 @@
     <p>
     <strong>Profiling tools</strong>
     </p>
-    <ul>
-      <li>The <pkg>profr</pkg> and <pkg>profvis</pkg> packages can visualize output from
-	the <code>Rprof</code> interface for profiling.
-      </li>
-      <li>The <pkg>proftools</pkg> package by Tierney, and the
-        <pkg>aprof</pkg> package by Visser, can also be used to analyse
-        profiling output. 
-      </li>
-      <li> The <pkg>GUIProfiler</pkg> package visualizes the results of
-        profiling R programs.
-      </li>
-
-    </ul>
+    <p>
+      Packages <pkg>profvis</pkg>, <pkg>proffer</pkg>, <pkg>profmem</pkg>,
+      <pkg>GUIProfiler</pkg>, <pkg>proftools</pkg>, and <pkg>aprof</pkg>
+      summarize and visualize output from the <code>Rprof</code>
+      interface for profiling. The <pkg>profile</pkg> package reads and
+      writes profiling data and converts among file formats such as
+      <a href="https://github.com/google/pprof"><code>pprof</code></a>
+      by Google and <code>Rprof</code>.
+      The <a href="https://github.com/atheriel/xrprof"><code>xrprof</code></a>
+      command-line tool implements profile sampling for a given R process
+      on Linux or Windows, and it can profile R code alongside compiled code.
+    </p>
 
   </info>
 
@@ -651,6 +650,9 @@
     <pkg>peperr</pkg>
     <pkg>permGPU</pkg>
     <pkg>pls</pkg>
+    <pkg>proffer</pkg>
+    <pkg>profile</pkg>
+    <pkg>profmem</pkg>
     <pkg>profr</pkg>
     <pkg>proftools</pkg>
     <pkg>profvis</pkg>
@@ -717,6 +719,8 @@
     <github>saptarshiguha/RHIPE</github>
     <!-- <a href="http://www.bayesian-inference.com/software">LaplacesDemon</a> -->
     <github>ljdursi/beyond-single-core-R</github>
+    <github>google/pprof</github>
+    <github>atheriel/xrprof</github>
     <a href="https://github.com/eddelbuettel/ctv-hpc">GitHub repository for this Task View</a>
   </links>
 
