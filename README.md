@@ -3,7 +3,7 @@
                                                                              
 **Maintainer:** Dirk Eddelbuettel                                            
 **Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2021-01-26                                                   
+**Version:**    2021-02-09                                                   
 **URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 <div>
@@ -461,14 +461,19 @@ higher-level convenience functions are planned for later R releases.
 
 **Profiling tools**
 
--   The [profr](https://cran.r-project.org/package=profr) and
-    [profvis](https://cran.r-project.org/package=profvis) packages can visualize
-    output from the `Rprof` interface for profiling.
--   The [proftools](https://cran.r-project.org/package=proftools) package by
-    Tierney, and the [aprof](https://cran.r-project.org/package=aprof) package by
-    Visser, can also be used to analyse profiling output.
--   The [GUIProfiler](https://cran.r-project.org/package=GUIProfiler) package
-    visualizes the results of profiling R programs.
+Packages [profvis](https://cran.r-project.org/package=profvis),
+[proffer](https://cran.r-project.org/package=proffer),
+[profmem](https://cran.r-project.org/package=profmem),
+[GUIProfiler](https://cran.r-project.org/package=GUIProfiler),
+[proftools](https://cran.r-project.org/package=proftools), and
+[aprof](https://cran.r-project.org/package=aprof) summarize and visualize output
+from the `Rprof` interface for profiling. The
+[profile](https://cran.r-project.org/package=profile) package reads and writes
+profiling data and converts among file formats such as
+[`pprof`](https://github.com/google/pprof) by Google and `Rprof`. The
+[`xrprof`](https://github.com/atheriel/xrprof) command-line tool
+implements profile sampling for a given R process on Linux or Windows,
+and it can profile R code alongside compiled code.
 
 </div>
 
@@ -528,6 +533,9 @@ higher-level convenience functions are planned for later R releases.
 -   [peperr](https://cran.r-project.org/package=peperr)
 -   [permGPU](https://cran.r-project.org/package=permGPU)
 -   [pls](https://cran.r-project.org/package=pls)
+-   [proffer](https://cran.r-project.org/package=proffer)
+-   [profile](https://cran.r-project.org/package=profile)
+-   [profmem](https://cran.r-project.org/package=profmem)
 -   [profr](https://cran.r-project.org/package=profr)
 -   [proftools](https://cran.r-project.org/package=proftools)
 -   [profvis](https://cran.r-project.org/package=profvis)
@@ -618,5 +626,9 @@ higher-level convenience functions are planned for later R releases.
     class="GitHub">RHIPE</span>](https://github.com/saptarshiguha/RHIPE/)
 -   GitHub Project: [<span
     class="GitHub">beyond-single-core-R</span>](https://github.com/ljdursi/beyond-single-core-R/)
+-   GitHub Project: [<span
+    class="GitHub">pprof</span>](https://github.com/google/pprof/)
+-   GitHub Project: [<span
+    class="GitHub">xrprof</span>](https://github.com/atheriel/xrprof/)
 -   [GitHub repository for this Task
     View](https://github.com/eddelbuettel/ctv-hpc)
