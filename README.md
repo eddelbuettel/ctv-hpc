@@ -3,7 +3,7 @@
                                                                              
 **Maintainer:** Dirk Eddelbuettel                                            
 **Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2021-02-09                                                   
+**Version:**    2021-03-12                                                   
 **URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 <div>
@@ -427,9 +427,6 @@ higher-level convenience functions are planned for later R releases.
 -   The [bigstatsr](https://cran.r-project.org/package=bigstatsr) package also
     operates on file-backed large matrices via memory-mapped access, and
     offeres several matrix operationc, PCA, sparse methods and more..
--   The [disk.frame](https://cran.r-project.org/package=disk.frame) package
-    leverages several other packages to provide efficient access and
-    manipulation operations for data sets that are larger than RAM.
 
 **Easier interfaces for Compiled code**
 
@@ -494,7 +491,6 @@ and it can profile R code alongside compiled code.
 -   [clustermq](https://cran.r-project.org/package=clustermq)
 -   [data.table](https://cran.r-project.org/package=data.table)
 -   [dclone](https://cran.r-project.org/package=dclone)
--   [disk.frame](https://cran.r-project.org/package=disk.frame)
 -   [doFuture](https://cran.r-project.org/package=doFuture)
 -   [doMC](https://cran.r-project.org/package=doMC)
 -   [doMPI](https://cran.r-project.org/package=doMPI)
