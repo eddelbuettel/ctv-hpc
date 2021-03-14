@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2021-03-12</version>
+   <version>2021-03-14</version>
 
   <info>
     <p>
@@ -529,6 +529,10 @@
         matrices via memory-mapped access, and offeres several matrix
         operationc, PCA, sparse methods and more..
       </li>
+      <li>The <pkg>disk.frame</pkg> package leverages several other packages to
+        provide efficient access and manipulation operations for data sets that
+        are larger than RAM.
+      </li>
     </ul>
 
     <p>
@@ -607,6 +611,7 @@
     <pkg>clustermq</pkg>
     <pkg>data.table</pkg>
     <pkg>dclone</pkg>
+    <pkg>disk.frame</pkg>
     <pkg>doFuture</pkg>
     <pkg>doMC</pkg>
     <pkg>doMPI</pkg>
