@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2021-03-14</version>
+   <version>2021-05-27</version>
 
   <info>
     <p>
@@ -100,11 +100,6 @@
         and methods for distributed data types.
         The <pkg>pbdPROF</pkg> package profiles MPI communication SPMD code
         via MPI profiling libraries, such as fpmpi, mpiP, or TAU.
-      </li>
-      <li>An alternative is provided by the <pkg>nws</pkg> (NetWorkSpaces)
-        packages from REvolution Computing. It is the successor to the
-	earlier LindaSpaces approach to parallel computing, and is
-	implemented on top of the Twisted networking toolkit for Python.
       </li>
       <li>The <pkg>snow</pkg> (Simple Network of Workstations) package by
         Tierney et al. can use PVM, MPI, NWS as well as direct networking
@@ -389,11 +384,6 @@
       flexible and portable. The same code runs on major distributed
       environment, such as Hadoop, SGE, and MPI.
       </li>
-      <li>The <pkg>partDSA</pkg> package uses <pkg>nws</pkg> for generating a
-          piecewise constant estimation list of increasingly complex
-          predictors based on an intensive and comprehensive search over the
-          entire covariate space.
-      </li>
       <li>The <pkg>dclone</pkg> package provides a global optimization
 	approach and a variant of simulated annealing which exploits Bayesian
 	MCMC tools to get MLE point estimates and standard errors using low
@@ -637,11 +627,9 @@
     <pkg>Matching</pkg>
     <pkg>MonetDB.R</pkg>
     <pkg>mvnfast</pkg>
-    <pkg>nws</pkg>
     <pkg>orloca</pkg>
     <pkg>OpenCL</pkg>
     <pkg>parSim</pkg>
-    <pkg>partDSA</pkg>
     <pkg>pbapply</pkg>    
     <pkg>pbdBASE</pkg>
     <pkg>pbdPROF</pkg>

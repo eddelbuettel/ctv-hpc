@@ -3,7 +3,7 @@
                                                                              
 **Maintainer:** Dirk Eddelbuettel                                            
 **Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2021-03-14                                                   
+**Version:**    2021-05-27                                                   
 **URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
 
 <div>
@@ -86,11 +86,6 @@ higher-level convenience functions are planned for later R releases.
     The [pbdPROF](https://cran.r-project.org/package=pbdPROF) package profiles MPI
     communication SPMD code via MPI profiling libraries, such as fpmpi,
     mpiP, or TAU.
--   An alternative is provided by the [nws](https://cran.r-project.org/package=nws)
-    (NetWorkSpaces) packages from REvolution Computing. It is the
-    successor to the earlier LindaSpaces approach to parallel computing,
-    and is implemented on top of the Twisted networking toolkit for
-    Python.
 -   The [snow](https://cran.r-project.org/package=snow) (Simple Network of
     Workstations) package by Tierney et al. can use PVM, MPI, NWS as
     well as direct networking sockets. It provides an abstraction layer
@@ -322,11 +317,6 @@ higher-level convenience functions are planned for later R releases.
     is an optimized distributed gradient boosting library designed to be
     highly efficient, flexible and portable. The same code runs on major
     distributed environment, such as Hadoop, SGE, and MPI.
--   The [partDSA](https://cran.r-project.org/package=partDSA) package uses
-    [nws](https://cran.r-project.org/package=nws) for generating a piecewise
-    constant estimation list of increasingly complex predictors based on
-    an intensive and comprehensive search over the entire covariate
-    space.
 -   The [dclone](https://cran.r-project.org/package=dclone) package provides a
     global optimization approach and a variant of simulated annealing
     which exploits Bayesian MCMC tools to get MLE point estimates and
@@ -520,11 +510,9 @@ and it can profile R code alongside compiled code.
 -   [Matching](https://cran.r-project.org/package=Matching)
 -   [MonetDB.R](https://cran.r-project.org/package=MonetDB.R)
 -   [mvnfast](https://cran.r-project.org/package=mvnfast)
--   [nws](https://cran.r-project.org/package=nws)
 -   [OpenCL](https://cran.r-project.org/package=OpenCL)
 -   [orloca](https://cran.r-project.org/package=orloca)
 -   [parSim](https://cran.r-project.org/package=parSim)
--   [partDSA](https://cran.r-project.org/package=partDSA)
 -   [pbapply](https://cran.r-project.org/package=pbapply)
 -   [pbdBASE](https://cran.r-project.org/package=pbdBASE)
 -   [pbdMPI](https://cran.r-project.org/package=pbdMPI)
