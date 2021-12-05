@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2021-05-27</version>
+   <version>2021-11-08</version>
 
   <info>
     <p>
@@ -93,13 +93,6 @@
         The <pkg>pbdMPI</pkg> package provides S4 classes to directly interface 
         MPI in order to support the Single Program/Multiple Data (SPMD) parallel 
         programming style which is particularly useful for batch parallel execution.
-	The <pkg>pbdSLAP</pkg> builds on this and uses scalable linear algebra 
-	packages (namely BLACS, PBLAS, and ScaLAPACK) in double precision based 
-	on ScaLAPACK version 2.0.2. 
-	The <pkg>pbdBASE</pkg> builds on these and provides the core classes
-        and methods for distributed data types.
-        The <pkg>pbdPROF</pkg> package profiles MPI communication SPMD code
-        via MPI profiling libraries, such as fpmpi, mpiP, or TAU.
       </li>
       <li>The <pkg>snow</pkg> (Simple Network of Workstations) package by
         Tierney et al. can use PVM, MPI, NWS as well as direct networking
@@ -181,9 +174,6 @@
         The <pkg>RhpcBLASctl</pkg> package detects the number of available
         BLAS cores, and permits explicit selection of the number of
         cores.
-      </li>
-      <li>
-        The <pkg>Rhpc</pkg> permits <code>*apply()</code> style dispatch via MPI.
       </li>
       <li>
         The <pkg>targets</pkg> package and its predecessor <pkg>drake</pkg> are R-focused
@@ -438,11 +428,6 @@
 	GPU programming.
       </li>
       <li>
-        The <pkg>permGPU</pkg> package computes permutation resampling
-        inference in the context of RNA microarray studies on the GPU,
-        it uses CUDA (>= 4.5)
-      </li>
-      <li>
         The <pkg>tensorflow</pkg> package by by Allaire et
         al. provides access to the complete TensorFlow API from within
         R that enables numerical computation using data flow
@@ -631,12 +616,8 @@
     <pkg>OpenCL</pkg>
     <pkg>parSim</pkg>
     <pkg>pbapply</pkg>    
-    <pkg>pbdBASE</pkg>
-    <pkg>pbdPROF</pkg>
     <pkg>pbdMPI</pkg>
-    <pkg>pbdSLAP</pkg>
     <pkg>peperr</pkg>
-    <pkg>permGPU</pkg>
     <pkg>pls</pkg>
     <pkg>proffer</pkg>
     <pkg>profile</pkg>
@@ -653,7 +634,6 @@
     <pkg>Rdsm</pkg>
     <pkg>reticulate</pkg>
     <pkg>rgenoud</pkg>
-    <pkg>Rhpc</pkg>
     <pkg>RhpcBLASctl</pkg>
     <pkg>RInside</pkg>
     <pkg>rJava</pkg>
