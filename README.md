@@ -1,12 +1,8 @@
+**Please note that new home of this _CRAN Task View: High-Perfomance Computing_ in in [this repo](https://github.com/cran-task-views/HighPerformanceComputing) in the [cran-task-views organization](https://github.com/cran-task-views).**  This repository served for an earlier stage in the evolution of the Task Views and will remain to preserve links and attributions, but will likely not be extended.
+
 ## CRAN Task View: High-Performance and Parallel Computing with R
 
-                                                                             
---------------- ----------------------------------------------------------   
-**Maintainer:** Dirk Eddelbuettel                                            
-**Contact:**    Dirk.Eddelbuettel at R-project.org                           
-**Version:**    2021-11-08                                                   
-**URL:**        <https://CRAN.R-project.org/view=HighPerformanceComputing>   
-
+                                        
 <div>
 
 This CRAN task view contains a list of packages, grouped by topic, that
