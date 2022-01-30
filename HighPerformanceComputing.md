@@ -1,9 +1,11 @@
-
-## CRAN Task View High Performance and Parallel Computing
-
-Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-01-17   
-
+---
+name: HighPerformanceComputing
+topic: High-Performance and Parallel Computing with R
+maintainer: Dirk Eddelbuettel
+email: Dirk.Eddelbuettel@R-project.org
+version: 2022-01-17
+source: https://github.com/cran-task-views/HighPerformanceComputing/
+---
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
 high-performance computing (HPC) with R. In this context, we are defining 'high-performance
