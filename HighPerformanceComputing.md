@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2022-04-23
+version: 2022-05-18
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -258,17 +258,12 @@ for later R releases.
 -   A large number of database packages, and database-alike packages (such as `r pkg("sqldf")` by
     Grothendieck and `r pkg("data.table")` by Dowle) are also of potential interest but not reviewed
     here.
--   The `r pkg("HadoopStreaming")` package provides a framework for writing map/reduce scripts for
-    use in Hadoop Streaming; it also facilitates operating on data in a streaming fashion which does
-    not require Hadoop.
 -   The `r pkg("speedglm")` package permits to fit (generalised) linear models to large data. For
     in-memory data sets, speedlm() or speedglm() can be used along with update.speedlm() which can
     update fitted models with new data. For out-of-memory data sets, shglm() is available; it works
     in the presence of factors and can check for singular matrices.
 -   The `r pkg("MonetDB.R")` package allows R to access the MonetDB column-oriented, open source
     database system as a backend.
--   The `r pkg("ffbase")` package by de Jonge et al adds basic statistical functionality to the
-    `r pkg("ff")` package.
 -   The `r pkg("LaF")` package provides methods for fast access to large ASCII files in csv or
     fixed-width format.
 -   The `r pkg("bigstatsr")` package also operates on file-backed large matrices via memory-mapped
