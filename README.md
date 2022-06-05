@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-05-18   
+Date: 2022-06-04   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -188,13 +188,13 @@ for later R releases.
     use `r pkg("foreach")` for parallelized operations.
 -   The `r bioc("multtest")` package by Pollard et al. on Bioconductor can use `r pkg("snow")`,
     `r pkg("Rmpi")` or rpvm for resampling-based testing of multiple hypothesis.
--   The `r pkg("Matching")` package by Sekhon for multivariate and propensity score matching, the
-    `r pkg("STAR")` package by Pouzat for spike train analysis, the `r pkg("bnlearn")` package by
-    Scutari for bayesian network structure learning, the `r pkg("latentnet")` package by Krivitsky
-    and Handcock for latent position and cluster models, the `r pkg("peperr")` package by Porzelius
-    and Binder for parallelised estimation of prediction error, the `r pkg("orloca")` package by
-    Fernandez-Palacin and Munoz-Marquez for operations research locational analysis, the
-    `r pkg("rgenoud")` package by Mebane and Sekhon for genetic optimization using derivatives the
+-   The `r pkg("Matching")` package by Sekhon for multivariate and propensity score matching, 
+    the `r pkg("bnlearn")` package by Scutari for bayesian network structure learning, 
+    the `r pkg("latentnet")` package by Krivitsky and Handcock for latent position and cluster models, 
+    the `r pkg("peperr")` package by Porzelius and Binder for parallelised
+    estimation of prediction error, 
+    the `r pkg("orloca")` package by Fernandez-Palacin and Munoz-Marquez for operations research locational analysis, 
+    the `r pkg("rgenoud")` package by Mebane and Sekhon for genetic optimization using derivatives, the
     `r bioc("affyPara")` package by Schmidberger, Vicedo and Mansmann for parallel normalization of
     Affymetrix microarrays, and the `r bioc("puma")` package by Pearson et al. which propagates
     uncertainty into standard microarray analyses such as differential expression all can use
