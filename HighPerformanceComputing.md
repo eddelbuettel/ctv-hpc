@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2022-06-04
+version: 2022-06-18
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -65,6 +65,8 @@ for later R releases.
     `r pkg("snow")`.
 -   The `r pkg("snowfall")` package by Knaus provides a more recent alternative to
     `r pkg("snow")`. Functions can be used in sequential or parallel mode.
+-   The `r pkg("parallelly")` package enhances the parallel package by giving additional control 
+    over launch and set-up of parallel workers.
 -   The `r pkg("foreach")` package allows general iteration over elements in a collection without
     the use of an explicit loop counter. Using foreach without side effects also facilitates
     executing the loop in parallel which is possible via the `r pkg("doMC")` (using

@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-06-04   
+Date: 2022-06-18   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -63,6 +63,8 @@ for later R releases.
     `r pkg("snow")`.
 -   The `r pkg("snowfall")` package by Knaus provides a more recent alternative to
     `r pkg("snow")`. Functions can be used in sequential or parallel mode.
+-   The `r pkg("parallelly")` package enhances the parallel package by giving additional control 
+    over launch and set-up of parallel workers.
 -   The `r pkg("foreach")` package allows general iteration over elements in a collection without
     the use of an explicit loop counter. Using foreach without side effects also facilitates
     executing the loop in parallel which is possible via the `r pkg("doMC")` (using
