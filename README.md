@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-06-19   
+Date: 2022-10-26   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -105,9 +105,9 @@ for later R releases.
     interface to OpenMP using Fortran. The code is still pre-alpha and available from the Google
     Code project `r gcode("romp")`. An R-Forge project `r rforge("romp")` was initiated but there is
     no package, yet.
--   The `r pkg("Rdsm")` package provides a threads-like parallel computing environment, both on
-    multicore machine and across the network by providing facilities inspired from distributed
-    shared memory programming.
+<!-- -   The `r pkg("Rdsm")` package provides a threads-like parallel computing environment, both on -->
+<!--     multicore machine and across the network by providing facilities inspired from distributed -->
+<!--     shared memory programming. -->
 -   The `r pkg("RhpcBLASctl")` package detects the number of available BLAS cores, and permits
     explicit selection of the number of cores.
 -   The `r pkg("targets")` package and its predecessor `r pkg("drake")` are R-focused pipeline
