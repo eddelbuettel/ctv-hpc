@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-10-26   
+Date: 2022-11-07   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -90,6 +90,9 @@ for later R releases.
 -   The `r pkg("parSim")` package can perform simulation studies using one or multiple cores, both
     locally and on HPC clusters.
 -   The `r pkg("qsub")` package can submit commands to run on gridengine clusters.
+-   The `r pkg("mirai")` package is a minimalist framework for local or distributed asynchronous
+    code evaluation, implementing futures which automatically resolve upon completion, built on the
+    high-performance `r pkg("nanonext")` NNG C messaging library binding.
 
 ### Parallel computing: Implicit parallelism
 

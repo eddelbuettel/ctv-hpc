@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2022-10-26
+version: 2022-11-07
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -92,6 +92,9 @@ for later R releases.
 -   The `r pkg("parSim")` package can perform simulation studies using one or multiple cores, both
     locally and on HPC clusters.
 -   The `r pkg("qsub")` package can submit commands to run on gridengine clusters.
+-   The `r pkg("mirai")` package is a minimalist framework for local or distributed asynchronous
+    code evaluation, implementing futures which automatically resolve upon completion, built on the
+    high-performance `r pkg("nanonext")` NNG C messaging library binding.
 
 ### Parallel computing: Implicit parallelism
 
