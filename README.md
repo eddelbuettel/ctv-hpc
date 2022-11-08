@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-11-07   
+Date: 2022-11-08   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
