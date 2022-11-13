@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2022-11-07
+version: 2022-11-13
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -78,7 +78,9 @@ for later R releases.
     Global variables are automatically identified. Iteration over elements in a collection is
     supported. Parallel map-reduce calls via the future framework are provided by packages
     `r pkg("future.apply")` for parallel versions of base-R apply functions, and
-    `r pkg("furrr")` for parallel versions of purrr fuctions.
+    `r pkg("furrr")` for parallel versions of purrr fuctions. Parallelization is available through
+    the parallel package, `r pkg("future.callr")` via the callr package, and 
+    `r pkg("future.batchtools")` via the batchtools package.
 -   The `r pkg("Rborist")` package employs OpenMP pragmas to exploit predictor-level parallelism in
     the Random Forest algorithm which promotes efficient use of multicore hardware in restaging data
     and in determining splitting criteria, both of which are performance bottlenecks in the

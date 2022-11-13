@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-11-08   
+Date: 2022-11-13   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -76,7 +76,9 @@ for later R releases.
     Global variables are automatically identified. Iteration over elements in a collection is
     supported. Parallel map-reduce calls via the future framework are provided by packages
     `r pkg("future.apply")` for parallel versions of base-R apply functions, and
-    `r pkg("furrr")` for parallel versions of purrr fuctions.
+    `r pkg("furrr")` for parallel versions of purrr fuctions. Parallelization is available through
+    the parallel package, `r pkg("future.callr")` via the callr package, and 
+    `r pkg("future.batchtools")` via the batchtools package.
 -   The `r pkg("Rborist")` package employs OpenMP pragmas to exploit predictor-level parallelism in
     the Random Forest algorithm which promotes efficient use of multicore hardware in restaging data
     and in determining splitting criteria, both of which are performance bottlenecks in the
