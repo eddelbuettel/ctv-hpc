@@ -275,10 +275,10 @@ for later R releases.
 -   A large number of database packages, and database-alike packages (such as `r pkg("sqldf")` by
     Grothendieck and `r pkg("data.table")` by Dowle) are also of potential interest but not reviewed
     here.
--   The `r pkg("speedglm")` package permits to fit (generalised) linear models to large data. For
-    in-memory data sets, speedlm() or speedglm() can be used along with update.speedlm() which can
-    update fitted models with new data. For out-of-memory data sets, shglm() is available; it works
-    in the presence of factors and can check for singular matrices.
+<!-- -   The `r pkg("speedglm")` package permits to fit (generalised) linear models to large data. For -->
+<!--     in-memory data sets, speedlm() or speedglm() can be used along with update.speedlm() which can -->
+<!--     update fitted models with new data. For out-of-memory data sets, shglm() is available; it works -->
+<!--     in the presence of factors and can check for singular matrices. -->
 -   The `r pkg("MonetDB.R")` package allows R to access the MonetDB column-oriented, open source
     database system as a backend.
 -   The `r pkg("LaF")` package provides methods for fast access to large ASCII files in csv or
