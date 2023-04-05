@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2023-01-19
+version: 2023-04-05
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -97,6 +97,8 @@ for later R releases.
 -   The `r pkg("mirai")` package is a minimalist framework for local or distributed asynchronous
     code evaluation, implementing futures which automatically resolve upon completion, built on the
     high-performance `r pkg("nanonext")` NNG C messaging library binding.
+-   The `r pkg("condor")` can interact with Condor HPC installations via `ssh` to transfer files 
+    and access remote compute jobs.
 
 ### Parallel computing: Implicit parallelism
 

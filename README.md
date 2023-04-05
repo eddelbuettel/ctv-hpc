@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2023-01-19   
+Date: 2023-04-05   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -95,6 +95,8 @@ for later R releases.
 -   The `r pkg("mirai")` package is a minimalist framework for local or distributed asynchronous
     code evaluation, implementing futures which automatically resolve upon completion, built on the
     high-performance `r pkg("nanonext")` NNG C messaging library binding.
+-   The `r pkg("condor")` can interact with Condor HPC installations via `ssh` to transfer files 
+    and access remote compute jobs.
 
 ### Parallel computing: Implicit parallelism
 
@@ -273,10 +275,10 @@ for later R releases.
 -   A large number of database packages, and database-alike packages (such as `r pkg("sqldf")` by
     Grothendieck and `r pkg("data.table")` by Dowle) are also of potential interest but not reviewed
     here.
--   The `r pkg("speedglm")` package permits to fit (generalised) linear models to large data. For
-    in-memory data sets, speedlm() or speedglm() can be used along with update.speedlm() which can
-    update fitted models with new data. For out-of-memory data sets, shglm() is available; it works
-    in the presence of factors and can check for singular matrices.
+<!-- -   The `r pkg("speedglm")` package permits to fit (generalised) linear models to large data. For -->
+<!--     in-memory data sets, speedlm() or speedglm() can be used along with update.speedlm() which can -->
+<!--     update fitted models with new data. For out-of-memory data sets, shglm() is available; it works -->
+<!--     in the presence of factors and can check for singular matrices. -->
 -   The `r pkg("MonetDB.R")` package allows R to access the MonetDB column-oriented, open source
     database system as a backend.
 -   The `r pkg("LaF")` package provides methods for fast access to large ASCII files in csv or
