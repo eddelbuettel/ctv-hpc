@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2023-04-14
+version: 2023-04-29
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -99,8 +99,8 @@ for later R releases.
     high-performance `r pkg("nanonext")` NNG C messaging library binding.
 -   The `r pkg("condor")` package can interact with Condor HPC installations via `ssh` to transfer
     files and access remote compute jobs.
--   The `r pkg("bettermc")` package offers a drop-in replacement for `parallel::mclapply` providing
-    a number of improvements and helper functions.
+<!-- -   The `r pkg("bettermc")` package offers a drop-in replacement for `parallel::mclapply` providing -->
+<!--     a number of improvements and helper functions. -->
 
 ### Parallel computing: Implicit parallelism
 
@@ -265,6 +265,8 @@ for later R releases.
 -   The `r pkg("ssgraph")` package offers Bayesian inference in undirected graphical models using
     spike-and-slab priors for multivariate continuous, discrete, and mixed data. Computationally
     intensive tasks of the package are using OpenMP via C++.
+-   The `r pkg("GPUmatrix")` package can offload calculations to the GPU while providing the API of
+    the `Matrix` package.
 
 ### Large memory and out-of-memory data
 

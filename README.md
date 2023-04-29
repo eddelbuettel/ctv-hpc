@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2023-04-14   
+Date: 2023-04-29   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -97,8 +97,8 @@ for later R releases.
     high-performance `r pkg("nanonext")` NNG C messaging library binding.
 -   The `r pkg("condor")` package can interact with Condor HPC installations via `ssh` to transfer
     files and access remote compute jobs.
--   The `r pkg("bettermc")` package offers a drop-in replacement for `parallel::mclapply` providing
-    a number of improvements and helper functions.
+<!-- -   The `r pkg("bettermc")` package offers a drop-in replacement for `parallel::mclapply` providing -->
+<!--     a number of improvements and helper functions. -->
 
 ### Parallel computing: Implicit parallelism
 
@@ -263,6 +263,8 @@ for later R releases.
 -   The `r pkg("ssgraph")` package offers Bayesian inference in undirected graphical models using
     spike-and-slab priors for multivariate continuous, discrete, and mixed data. Computationally
     intensive tasks of the package are using OpenMP via C++.
+-   The `r pkg("GPUmatrix")` package can offload calculations to the GPU while providing the API of
+    the `Matrix` package.
 
 ### Large memory and out-of-memory data
 
