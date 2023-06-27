@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2023-04-29
+version: 2023-06-27
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
