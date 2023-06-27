@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2023-04-29   
+Date: 2023-06-27   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -94,7 +94,9 @@ for later R releases.
 -   The `r pkg("qsub")` package can submit commands to run on gridengine clusters.
 -   The `r pkg("mirai")` package is a minimalist framework for local or distributed asynchronous
     code evaluation, implementing futures which automatically resolve upon completion, built on the
-    high-performance `r pkg("nanonext")` NNG C messaging library binding.
+    high-performance `r pkg("nanonext")` NNG C messaging library binding. The `r pkg("crew")`
+    package extends `r pkg("mirai")` with auto-scaling, a central manager, and plugin system for
+    diverse platforms and services.
 -   The `r pkg("condor")` package can interact with Condor HPC installations via `ssh` to transfer
     files and access remote compute jobs.
 <!-- -   The `r pkg("bettermc")` package offers a drop-in replacement for `parallel::mclapply` providing -->
