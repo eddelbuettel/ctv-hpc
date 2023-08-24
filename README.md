@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2023-08-19   
+Date: 2023-08-24   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -291,8 +291,8 @@ for later R releases.
     fixed-width format.
 -   The `r pkg("bigstatsr")` package also operates on file-backed large matrices via memory-mapped
     access, and offeres several matrix operationc, PCA, sparse methods and more..
-<!-- -   The `r pkg("disk.frame")` package leverages several other packages to provide efficient access -->
-<!--     and manipulation operations for data sets that are larger than RAM. -->
+-   The `r pkg("disk.frame")` package leverages several other packages to provide efficient access
+    and manipulation operations for data sets that are larger than RAM.
 -   The `r pkg("arrow")` package offers the portable Apache Arrow in-memory format as well as
     readers for different file formats which can include support for out-of-memory processing 
     and streaming.
