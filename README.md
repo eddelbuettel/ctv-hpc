@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2023-10-31   
+Date: 2023-11-27   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -183,9 +183,9 @@ for later R releases.
 -   The `r pkg("flowr")` package offers a scatter-gather approach to submit jobs lists (including
     dependencies) to the computing cluster via simple data.frames as inputs. It supports LSF, SGE,
     Torque and SLURM.
-<!-- -   The `r pkg("clustermq")` package sends function calls as jobs on LSF, SGE and SLURM via a single -->
-<!--     line of code without using network-mounted storage. It also supports use of remote clusters via -->
-<!--     SSH. -->
+-   The `r pkg("clustermq")` package sends function calls as jobs on LSF, SGE and SLURM via a single
+    line of code without using network-mounted storage. It also supports use of remote clusters via
+    SSH.
 
 ### Parallel computing: Applications
 

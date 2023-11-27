@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2023-10-31
+version: 2023-11-27
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -185,9 +185,9 @@ for later R releases.
 -   The `r pkg("flowr")` package offers a scatter-gather approach to submit jobs lists (including
     dependencies) to the computing cluster via simple data.frames as inputs. It supports LSF, SGE,
     Torque and SLURM.
-<!-- -   The `r pkg("clustermq")` package sends function calls as jobs on LSF, SGE and SLURM via a single -->
-<!--     line of code without using network-mounted storage. It also supports use of remote clusters via -->
-<!--     SSH. -->
+-   The `r pkg("clustermq")` package sends function calls as jobs on LSF, SGE and SLURM via a single
+    line of code without using network-mounted storage. It also supports use of remote clusters via
+    SSH.
 
 ### Parallel computing: Applications
 
