@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2023-11-27   
+Date: 2024-01-29   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -199,8 +199,8 @@ for later R releases.
     parallelized text mining.
 -   The `r pkg("varSelRF")` package by Diaz-Uriarte can use `r pkg("snow")` and `r pkg("Rmpi")` for
     parallelized use of variable selection via random forests.
--   The `r pkg("bcp")` package by Erdman and Emerson for the Bayesian analysis of change points can
-    use `r pkg("foreach")` for parallelized operations.
+<!-- -   The `r pkg("bcp")` package by Erdman and Emerson for the Bayesian analysis of change points can -->
+<!--     use `r pkg("foreach")` for parallelized operations. -->
 -   The `r bioc("multtest")` package by Pollard et al. on Bioconductor can use `r pkg("snow")`,
     `r pkg("Rmpi")` or rpvm for resampling-based testing of multiple hypothesis.
 -   The `r pkg("Matching")` package by Sekhon for multivariate and propensity score matching, 
