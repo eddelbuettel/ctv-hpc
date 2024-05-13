@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2024-01-29   
+Date: 2024-05-13   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -149,9 +149,9 @@ for later R releases.
     platform-neutral, extensible mechanism for serializing structured data. This package can be used
     in R code to read data streams from other systems in a distributed MapReduce setting where data
     is serialized and passed back and forth between tasks.
--   The `r pkg("HistogramTools")` package provides a number of routines useful for the construction,
-    aggregation, manipulation, and plotting of large numbers of histograms such as those created by
-    mappers in a MapReduce application.
+<!-- -   The `r pkg("HistogramTools")` package provides a number of routines useful for the construction, -->
+<!--     aggregation, manipulation, and plotting of large numbers of histograms such as those created by -->
+<!--     mappers in a MapReduce application. -->
 
 ### Parallel computing: Random numbers
 

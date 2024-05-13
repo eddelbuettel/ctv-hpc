@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2024-01-29
+version: 2024-05-13
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -151,9 +151,9 @@ for later R releases.
     platform-neutral, extensible mechanism for serializing structured data. This package can be used
     in R code to read data streams from other systems in a distributed MapReduce setting where data
     is serialized and passed back and forth between tasks.
--   The `r pkg("HistogramTools")` package provides a number of routines useful for the construction,
-    aggregation, manipulation, and plotting of large numbers of histograms such as those created by
-    mappers in a MapReduce application.
+<!-- -   The `r pkg("HistogramTools")` package provides a number of routines useful for the construction, -->
+<!--     aggregation, manipulation, and plotting of large numbers of histograms such as those created by -->
+<!--     mappers in a MapReduce application. -->
 
 ### Parallel computing: Random numbers
 
