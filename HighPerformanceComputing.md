@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2024-05-13
+version: 2024-11-09
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -37,11 +37,11 @@ Direct support in R started with release 2.14.0 which includes a new package **p
 incorporating (slightly revised) copies of packages multicore and `r pkg("snow", priority =
 "core")`. Some types of clusters are not handled directly by the base package 'parallel'.  However,
 and as explained in the package vignette, the parts of parallel which provide `r pkg("snow")` -like
-functions will accept `r pkg("snow")` clusters including MPI clusters. Use `vignette("parallel")` to
-view the package vignette.\ The **parallel** package also contains support for multiple RNG streams
-following L'Ecuyer et al (2002), with support for both mclapply and snow clusters.\ The version
-released for R 2.14.0 contains base functionality: higher-level convenience functions are planned
-for later R releases.
+functions will accept `r pkg("snow")` clusters including MPI clusters. Use `vignette("parallel",
+package="parallel")` to view the package vignette. The **parallel** package also contains support
+for multiple RNG streams following L'Ecuyer et al (2002), with support for both mclapply and snow
+clusters.\ The version released for R 2.14.0 contains base functionality: higher-level convenience
+functions are planned for later R releases.
 
 ### Parallel computing: Explicit parallelism
 
@@ -182,9 +182,9 @@ for later R releases.
     and SSH systems are also supported. The `r pkg("BatchExperiments")` package extends it with an
     abstraction layer for running statistical experiments. Package `r pkg("batchtools")` is a
     successor / extension to both.
--   The `r pkg("flowr")` package offers a scatter-gather approach to submit jobs lists (including
-    dependencies) to the computing cluster via simple data.frames as inputs. It supports LSF, SGE,
-    Torque and SLURM.
+<!-- -   The `r pkg("flowr")` package offers a scatter-gather approach to submit jobs lists (including -->
+<!--     dependencies) to the computing cluster via simple data.frames as inputs. It supports LSF, SGE, -->
+<!--     Torque and SLURM. -->
 -   The `r pkg("clustermq")` package sends function calls as jobs on LSF, SGE and SLURM via a single
     line of code without using network-mounted storage. It also supports use of remote clusters via
     SSH.
@@ -238,14 +238,15 @@ for later R releases.
     recurrent networks, any combination of both, and custom neural network architectures.
 -   The `r pkg("mvnfast")` uses the sumo random number generator to generate multivariate and normal
     distribtuions in parallel.
--   The `r pkg("rxode2random")` uses the `r pkg("sitmo")` package to generate either truncated or non-truncated 
-    multivariate normal distributions in parallel. The pacakge also generates many other common distributions in parallel (like 
+-   The `r pkg("rxode2random")` uses the `r pkg("sitmo")` package to generate either truncated or
+    non-truncated multivariate normal distributions in parallel. The pacakge also generates many
+    other common distributions in parallel (like
     binomial, t-distribution etc).  
--   The `r pkg("rxode2")` uses parallel processing (via `OpenMP`) for faster solving of ordinary differential 
-    equations (ODEs) over multiple units (grouped by `ID`) and can generate random numbers for each ODE simulation problem (done
-    automatically with the support package `r pkg("rxode2random")`).
--   The `r pkg("nlmixr2")` uses parallel ODE solving from `rxode2` to solve nonlinear mixed effects models
-    in parallel (for the algorithm `"saem"`).
+-   The `r pkg("rxode2")` uses parallel processing (via `OpenMP`) for faster solving of ordinary
+    differential equations (ODEs) over multiple units (grouped by `ID`) and can generate random
+    numbers for each ODE simulation problem.
+-   The `r pkg("nlmixr2")` uses parallel ODE solving from `rxode2` to solve nonlinear mixed effects
+    models in parallel (for the algorithm `"saem"`).
 
 ### Parallel computing: GPUs
 
