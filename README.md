@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2024-11-09   
+Date: 2024-11-24   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -236,10 +236,9 @@ functions are planned for later R releases.
     recurrent networks, any combination of both, and custom neural network architectures.
 -   The `r pkg("mvnfast")` uses the sumo random number generator to generate multivariate and normal
     distribtuions in parallel.
--   The `r pkg("rxode2random")` uses the `r pkg("sitmo")` package to generate either truncated or
-    non-truncated multivariate normal distributions in parallel. The pacakge also generates many
-    other common distributions in parallel (like
-    binomial, t-distribution etc).  
+<!-- -   The `r pkg("rxode2random")` uses the `r pkg("sitmo")` package to generate either truncated or -->
+<!--     non-truncated multivariate normal distributions in parallel. The pacakge also generates many -->
+<!--     other common distributions in parallel (like binomial, t-distribution etc).   -->
 -   The `r pkg("rxode2")` uses parallel processing (via `OpenMP`) for faster solving of ordinary
     differential equations (ODEs) over multiple units (grouped by `ID`) and can generate random
     numbers for each ODE simulation problem.
