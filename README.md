@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2025-01-15   
+Date: 2025-04-22   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -246,6 +246,7 @@ functions are planned for later R releases.
     models in parallel (for the algorithm `"saem"`).
 -   The `r pkg("parabar")` package implements a progress bar for parallel applications; the 
     `r pkg("doParabar")` package builds on this with a `foreach`  parallel adapter for `parabar` backends.
+-   The `r pkg("SLmetrics")` package is a C++17/Armadillo implementation of 40+ classification, regression, clustering and time‑series metrics; vectorised pointer‑level loops and optional OpenMP parallelism deliver fast, low‑memory scoring of very large prediction arrays.
 
 ### Parallel computing: GPUs
 
@@ -287,8 +288,8 @@ functions are planned for later R releases.
 <!--     in-memory data sets, speedlm() or speedglm() can be used along with update.speedlm() which can -->
 <!--     update fitted models with new data. For out-of-memory data sets, shglm() is available; it works -->
 <!--     in the presence of factors and can check for singular matrices. -->
--   The `r pkg("MonetDB.R")` package allows R to access the MonetDB column-oriented, open source
-    database system as a backend.
+<!-- -   The `r pkg("MonetDB.R")` package allows R to access the MonetDB column-oriented, open source -->
+<!--     database system as a backend. -->
 -   The `r pkg("LaF")` package provides methods for fast access to large ASCII files in csv or
     fixed-width format.
 -   The `r pkg("bigstatsr")` package also operates on file-backed large matrices via memory-mapped
