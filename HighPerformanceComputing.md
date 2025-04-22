@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2025-01-15
+version: 2025-04-22
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -290,8 +290,8 @@ functions are planned for later R releases.
 <!--     in-memory data sets, speedlm() or speedglm() can be used along with update.speedlm() which can -->
 <!--     update fitted models with new data. For out-of-memory data sets, shglm() is available; it works -->
 <!--     in the presence of factors and can check for singular matrices. -->
--   The `r pkg("MonetDB.R")` package allows R to access the MonetDB column-oriented, open source
-    database system as a backend.
+<!-- -   The `r pkg("MonetDB.R")` package allows R to access the MonetDB column-oriented, open source -->
+<!--     database system as a backend. -->
 -   The `r pkg("LaF")` package provides methods for fast access to large ASCII files in csv or
     fixed-width format.
 -   The `r pkg("bigstatsr")` package also operates on file-backed large matrices via memory-mapped
