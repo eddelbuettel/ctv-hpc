@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2025-04-22
+version: 2025-06-13
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -260,10 +260,10 @@ functions are planned for later R releases.
     TensorFlow API from within R that enables numerical computation using data flow graphs. The
     flexible architecture allows users to deploy computation to one or more CPUs or GPUs in a
     desktop, server, or mobile device with a single API.
--   The `r pkg("tfestimators")` package by by Tang et al.  offers a high-level API that provides
-    implementations of many different model types including linear models and deep neural
-    networks. It also provides a flexible framework for defining arbitrary new model types as custom
-    estimators with the distributed power of TensorFlow for free.
+<!-- -   The `r pkg("tfestimators")` package by by Tang et al.  offers a high-level API that provides -->
+<!--     implementations of many different model types including linear models and deep neural -->
+<!--     networks. It also provides a flexible framework for defining arbitrary new model types as custom -->
+<!--     estimators with the distributed power of TensorFlow for free. -->
 -   The `r pkg("BDgraph")` package provides statistical tools for Bayesian structure learning in
     undirected graphical models for multivariate continuous, discrete, and mixed data using parallel
     sampling algorithms implemented using OpenMP and C++.
