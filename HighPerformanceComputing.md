@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2025-06-13
+version: 2025-06-14
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -320,7 +320,9 @@ functions are planned for later R releases.
     `.Call()` interface for C and C++.
 -   The `r pkg("reticulate")` package by Allaire provides interface to Python modules, classes, and
     functions. It allows R users to access many high-performance Python packages such as
-    `r pkg("tensorflow")` and `r pkg("tfestimators")` within R.
+    `r pkg("tensorflow")` 
+    <!-- and `r pkg("tfestimators")`  -->
+    within R.
 
 ### Profiling tools
 
