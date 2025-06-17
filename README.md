@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2025-06-14   
+Date: 2025-06-17   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -319,7 +319,7 @@ functions are planned for later R releases.
 -   The `r pkg("reticulate")` package by Allaire provides interface to Python modules, classes, and
     functions. It allows R users to access many high-performance Python packages such as
     `r pkg("tensorflow")` 
-    <!-- and `r pkg("tfestimators")`  -->
+<!-- and `r pkg("tfestimators")`  -->
     within R.
 
 ### Profiling tools
