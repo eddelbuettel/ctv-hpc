@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2025-06-14
+version: 2025-07-12
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -326,7 +326,7 @@ functions are planned for later R releases.
 
 ### Profiling tools
 
-Packages `r pkg("profvis")`, `r pkg("proffer")`, `r pkg("profmem")`, `r pkg("GUIProfiler")`,
+Packages `r pkg("profvis")`, `r pkg("proffer")`, `r pkg("profmem")`, 
 `r pkg("proftools")`, and `r pkg("aprof")` summarize and visualize output from the `Rprof` interface
 for profiling.  The `r pkg("profile")` package reads and writes profiling data and converts among
 file formats such as [`pprof`](https://github.com/google/pprof) by Google and `Rprof`. The
