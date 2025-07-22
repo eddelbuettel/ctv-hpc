@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2025-07-12
+version: 2025-07-22
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -323,6 +323,8 @@ functions are planned for later R releases.
     `r pkg("tensorflow")` 
 <!-- and `r pkg("tfestimators")`  -->
     within R.
+-   The `r pkg("quickr")` package by Kalinowski translates R functions with type and shape
+    declarations to Fortran code and compiles them. 
 
 ### Profiling tools
 

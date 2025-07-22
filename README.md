@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2025-07-12   
+Date: 2025-07-22   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -321,6 +321,8 @@ functions are planned for later R releases.
     `r pkg("tensorflow")` 
 <!-- and `r pkg("tfestimators")`  -->
     within R.
+-   The `r pkg("quickr")` package by Kalinowski translates R functions with type and shape
+    declarations to Fortran code and compiles them. 
 
 ### Profiling tools
 
