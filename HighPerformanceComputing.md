@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2025-07-22
+version: 2025-09-05
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -26,7 +26,7 @@ Suggestions and corrections by Achim Zeileis, Markus Schmidberger, Martin Morgan
 Radivoyevitch, Jochen Knaus, Tobias Verbeke, Hao Yu, David Rosenberg, Marco Enea, Ivo Welch, Jay
 Emerson, Wei-Chen Chen, Bill Cleveland, Ross Boylan, Ramon Diaz-Uriarte, Mark Zeligman, Kevin Ushey,
 Graham Jeffries, Will Landau, Tim Flutre, Reza Mohammadi, Ralf Stubner, Bob Jansen, Matt Fidler,
-Brent Brewington and Ben Bolder (as well as others I may have forgotten to add here) are gratefully
+Brent Brewington and Ben Bolker (as well as others I may have forgotten to add here) are gratefully
 acknowledged.
 
 The `ctv` package supports these Task Views. Its functions `install.views` and `update.views` allow,
@@ -295,7 +295,7 @@ functions are planned for later R releases.
 -   The `r pkg("LaF")` package provides methods for fast access to large ASCII files in csv or
     fixed-width format.
 -   The `r pkg("bigstatsr")` package also operates on file-backed large matrices via memory-mapped
-    access, and offeres several matrix operationc, PCA, sparse methods and more..
+    access, and offers several matrix operations, PCA, sparse methods and more.
 -   The `r pkg("disk.frame")` package leverages several other packages to provide efficient access
     and manipulation operations for data sets that are larger than RAM.
 -   The `r pkg("arrow")` package offers the portable Apache Arrow in-memory format as well as
