@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2025-09-05
+version: 2025-10-21
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -173,8 +173,8 @@ functions are planned for later R releases.
 -   The Condor toolkit ( [link](http://www.cs.wisc.edu/condor/) ) from the University of
     Wisconsin-Madison has been used with R as described in this [R News
     article](http://www.r-project.org/doc/Rnews/Rnews_2005-2.pdf) .
--   The sfCluster package by Knaus can be used with `r pkg("snowfall")`. (
-    [link](http://www.imbi.uni-freiburg.de/parallel/) ) but is currently limited to LAM/MPI.
+<!-- -   The sfCluster package by Knaus can be used with `r pkg("snowfall")`. ( -->
+<!--     [link](http://www.imbi.uni-freiburg.de/parallel/) ) but is currently limited to LAM/MPI. -->
 -   The `r pkg("batch")` package by Hoffmann can launch parallel computing requests onto a cluster
     and gather results.
 -   The `r pkg("BatchJobs")` package provides Map, Reduce and Filter variants to manage R jobs and
