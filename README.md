@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2025-10-21   
+Date: 2025-12-23   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -248,6 +248,7 @@ functions are planned for later R releases.
 -   The `r pkg("parabar")` package implements a progress bar for parallel applications; the 
     `r pkg("doParabar")` package builds on this with a `foreach`  parallel adapter for `parabar` backends.
 -   The `r pkg("SLmetrics")` package is a C++17/Armadillo implementation of 40+ classification, regression, clustering and time‑series metrics; vectorised pointer‑level loops and optional OpenMP parallelism deliver fast, low‑memory scoring of very large prediction arrays.
+-   The `r pkg("piecemeal")` package sets up, runs, monitors, collates, and debugs large simulation studies comprising many small independent replications and treatment configurations. 
 
 ### Parallel computing: GPUs
 
@@ -269,8 +270,8 @@ functions are planned for later R releases.
 -   The `r pkg("ssgraph")` package offers Bayesian inference in undirected graphical models using
     spike-and-slab priors for multivariate continuous, discrete, and mixed data. Computationally
     intensive tasks of the package are using OpenMP via C++.
--   The `r pkg("GPUmatrix")` package can offload calculations to the GPU while providing the API of
-    the `Matrix` package.
+<!-- -   The `r pkg("GPUmatrix")` package can offload calculations to the GPU while providing the API of -->
+<!--     the `Matrix` package. -->
 
 ### Large memory and out-of-memory data
 
