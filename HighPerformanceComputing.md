@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2025-12-23
+version: 2025-12-25
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -104,6 +104,8 @@ functions are planned for later R releases.
     files and access remote compute jobs.
 <!-- -   The `r pkg("bettermc")` package offers a drop-in replacement for `parallel::mclapply` providing -->
 <!--     a number of improvements and helper functions. -->
+-   The `r pkg("piecemeal")` package sets up, runs, monitors, collates, and debugs large simulation
+    studies comprising many small independent replications and treatment configurations.
 
 ### Parallel computing: Implicit parallelism
 
@@ -250,7 +252,6 @@ functions are planned for later R releases.
 -   The `r pkg("parabar")` package implements a progress bar for parallel applications; the 
     `r pkg("doParabar")` package builds on this with a `foreach`  parallel adapter for `parabar` backends.
 -   The `r pkg("SLmetrics")` package is a C++17/Armadillo implementation of 40+ classification, regression, clustering and time‑series metrics; vectorised pointer‑level loops and optional OpenMP parallelism deliver fast, low‑memory scoring of very large prediction arrays.
--   The `r pkg("piecemeal")` package sets up, runs, monitors, collates, and debugs large simulation studies comprising many small independent replications and treatment configurations. 
 
 ### Parallel computing: GPUs
 
