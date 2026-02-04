@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2026-01-29
+version: 2026-02-03
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -299,8 +299,8 @@ functions are planned for later R releases.
     fixed-width format.
 -   The `r pkg("bigstatsr")` package also operates on file-backed large matrices via memory-mapped
     access, and offers several matrix operations, PCA, sparse methods and more.
--   The `r pkg("disk.frame")` package leverages several other packages to provide efficient access
-    and manipulation operations for data sets that are larger than RAM.
+<!-- -   The `r pkg("disk.frame")` package leverages several other packages to provide efficient access -->
+<!--     and manipulation operations for data sets that are larger than RAM. -->
 -   The `r pkg("arrow")` package offers the portable Apache Arrow in-memory format as well as
     readers for different file formats which can include support for out-of-memory processing 
     and streaming.
