@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2026-02-03   
+Date: 2026-02-18   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -249,7 +249,7 @@ functions are planned for later R releases.
     models in parallel (for the algorithm `"saem"`).
 -   The `r pkg("parabar")` package implements a progress bar for parallel applications; the 
     `r pkg("doParabar")` package builds on this with a `foreach`  parallel adapter for `parabar` backends.
--   The `r pkg("SLmetrics")` package is a C++17/Armadillo implementation of 40+ classification, regression, clustering and time‑series metrics; vectorised pointer‑level loops and optional OpenMP parallelism deliver fast, low‑memory scoring of very large prediction arrays.
+<!-- -   The `r pkg("SLmetrics")` package is a C++17/Armadillo implementation of 40+ classification, regression, clustering and time‑series metrics; vectorised pointer‑level loops and optional OpenMP parallelism deliver fast, low‑memory scoring of very large prediction arrays. -->
 
 ### Parallel computing: GPUs
 

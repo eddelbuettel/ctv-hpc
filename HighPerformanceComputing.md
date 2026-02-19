@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2026-02-03
+version: 2026-02-18
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -251,7 +251,7 @@ functions are planned for later R releases.
     models in parallel (for the algorithm `"saem"`).
 -   The `r pkg("parabar")` package implements a progress bar for parallel applications; the 
     `r pkg("doParabar")` package builds on this with a `foreach`  parallel adapter for `parabar` backends.
--   The `r pkg("SLmetrics")` package is a C++17/Armadillo implementation of 40+ classification, regression, clustering and time‑series metrics; vectorised pointer‑level loops and optional OpenMP parallelism deliver fast, low‑memory scoring of very large prediction arrays.
+<!-- -   The `r pkg("SLmetrics")` package is a C++17/Armadillo implementation of 40+ classification, regression, clustering and time‑series metrics; vectorised pointer‑level loops and optional OpenMP parallelism deliver fast, low‑memory scoring of very large prediction arrays. -->
 
 ### Parallel computing: GPUs
 
