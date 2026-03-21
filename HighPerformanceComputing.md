@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2026-03-19
+version: 2026-03-21
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -106,7 +106,7 @@ functions are planned for later R releases.
 <!--     a number of improvements and helper functions. -->
 -   The `r pkg("piecemeal")` package sets up, runs, monitors, collates, and debugs large simulation
     studies comprising many small independent replications and treatment configurations.
--   The `r pkg("starbust")` package offers a `r pkg("future")` backend to execute parallel R 
+-   The `r pkg("starburst")` package offers a `r pkg("future")` backend to execute parallel R 
     workloads on AWS; it handles environment synchronization, data transfer, quota management, 
     and worker orchestration, allowing users to scale from local execution to 100+ cloud workers.
 
