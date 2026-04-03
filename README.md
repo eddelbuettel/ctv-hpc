@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2026-03-21   
+Date: 2026-04-03   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -305,6 +305,9 @@ functions are planned for later R releases.
 -   The `r pkg("arrow")` package offers the portable Apache Arrow in-memory format as well as
     readers for different file formats which can include support for out-of-memory processing 
     and streaming.
+-   The `r pkg("shard")` package enables zero-copy parallel reads via shared/memory-mapped segments, 
+    encourages explicit output buffers to avoid large result aggregation, and supervises worker
+    processes to mitigate memory drift via controlled recycling. 
 
 ### Easier interfaces for Compiled code
 

@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2026-03-21
+version: 2026-04-03
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -307,6 +307,9 @@ functions are planned for later R releases.
 -   The `r pkg("arrow")` package offers the portable Apache Arrow in-memory format as well as
     readers for different file formats which can include support for out-of-memory processing 
     and streaming.
+-   The `r pkg("shard")` package enables zero-copy parallel reads via shared/memory-mapped segments, 
+    encourages explicit output buffers to avoid large result aggregation, and supervises worker
+    processes to mitigate memory drift via controlled recycling. 
 
 ### Easier interfaces for Compiled code
 
