@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2026-04-03   
+Date: 2026-05-06   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -308,6 +308,10 @@ functions are planned for later R releases.
 -   The `r pkg("shard")` package enables zero-copy parallel reads via shared/memory-mapped segments, 
     encourages explicit output buffers to avoid large result aggregation, and supervises worker
     processes to mitigate memory drift via controlled recycling. 
+-   The `r pkg("mori")` package implements shared memory parallelism using lazy ALTREP
+    materialization also supporting serialization. 
+-   The `r pkg("memshare")` package adds a mechanism for efficient parallel data access via shared
+    memory.
 
 ### Easier interfaces for Compiled code
 
