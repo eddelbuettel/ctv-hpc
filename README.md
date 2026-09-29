@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2026-05-06   
+Date: 2026-09-29   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -181,11 +181,15 @@ functions are planned for later R releases.
 <!--     [link](http://www.imbi.uni-freiburg.de/parallel/) ) but is currently limited to LAM/MPI. -->
 -   The `r pkg("batch")` package by Hoffmann can launch parallel computing requests onto a cluster
     and gather results.
--   The `r pkg("BatchJobs")` package provides Map, Reduce and Filter variants to manage R jobs and
-    their results on batch computing systems like PBS/Torque, LSF and Sun Grid Engine.  Multicore
-    and SSH systems are also supported. The `r pkg("BatchExperiments")` package extends it with an
-    abstraction layer for running statistical experiments. Package `r pkg("batchtools")` is a
-    successor / extension to both.
+-   The `r pkg("batchtools")` package provides a parallel `Map` for HPC systems, plus an abstraction 
+    layer to define large-scale computer experiments in a reproducible way. Supported backends include
+    Slurm, SGE, TORQUE/PBS, IBM Spectrum LSF, and Docker Swarm, as well as multicore, socket and 
+    makeshift SSH clusters for local use. It supersedes `r pkg("BatchJobs")` and `r pkg("BatchExperiments")`.
+<!-- -   The `r pkg("BatchJobs")` package provides Map, Reduce and Filter variants to manage R jobs and -->
+<!--     their results on batch computing systems like PBS/Torque, LSF and Sun Grid Engine.  Multicore -->
+<!--     and SSH systems are also supported. The `r pkg("BatchExperiments")` package extends it with an -->
+<!--     abstraction layer for running statistical experiments. Package `r pkg("batchtools")` is a -->
+<!--     successor / extension to both. -->
 <!-- -   The `r pkg("flowr")` package offers a scatter-gather approach to submit jobs lists (including -->
 <!--     dependencies) to the computing cluster via simple data.frames as inputs. It supports LSF, SGE, -->
 <!--     Torque and SLURM. -->

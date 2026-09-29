@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2026-05-06
+version: 2026-09-29
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -183,11 +183,15 @@ functions are planned for later R releases.
 <!--     [link](http://www.imbi.uni-freiburg.de/parallel/) ) but is currently limited to LAM/MPI. -->
 -   The `r pkg("batch")` package by Hoffmann can launch parallel computing requests onto a cluster
     and gather results.
--   The `r pkg("BatchJobs")` package provides Map, Reduce and Filter variants to manage R jobs and
-    their results on batch computing systems like PBS/Torque, LSF and Sun Grid Engine.  Multicore
-    and SSH systems are also supported. The `r pkg("BatchExperiments")` package extends it with an
-    abstraction layer for running statistical experiments. Package `r pkg("batchtools")` is a
-    successor / extension to both.
+-   The `r pkg("batchtools")` package provides a parallel `Map` for HPC systems, plus an abstraction 
+    layer to define large-scale computer experiments in a reproducible way. Supported backends include
+    Slurm, SGE, TORQUE/PBS, IBM Spectrum LSF, and Docker Swarm, as well as multicore, socket and 
+    makeshift SSH clusters for local use. It supersedes `r pkg("BatchJobs")` and `r pkg("BatchExperiments")`.
+<!-- -   The `r pkg("BatchJobs")` package provides Map, Reduce and Filter variants to manage R jobs and -->
+<!--     their results on batch computing systems like PBS/Torque, LSF and Sun Grid Engine.  Multicore -->
+<!--     and SSH systems are also supported. The `r pkg("BatchExperiments")` package extends it with an -->
+<!--     abstraction layer for running statistical experiments. Package `r pkg("batchtools")` is a -->
+<!--     successor / extension to both. -->
 <!-- -   The `r pkg("flowr")` package offers a scatter-gather approach to submit jobs lists (including -->
 <!--     dependencies) to the computing cluster via simple data.frames as inputs. It supports LSF, SGE, -->
 <!--     Torque and SLURM. -->
