@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2026-09-29
+version: 2026-10-28
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -370,3 +370,4 @@ given R process on Linux or Windows, and it can profile R code alongside compile
 -   [High Performance Statistical Computing for Data Intensive Research](https://snoweye.github.io/hpsc/)
 -   [Rth: Parallel R through Thrust](http://heather.cs.ucdavis.edu/~matloff/rth.html)
 -   [Programming with Big Data in R](http://r-pbd.org)
+-   [Applied HPC with R](https://book-hpc.ggvy.cl/)

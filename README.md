@@ -2,7 +2,7 @@
 ## CRAN Task View High Performance and Parallel Computing
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2026-09-29   
+Date: 2026-10-28   
 
 
 This CRAN Task View contains a list of packages, grouped by topic, that are useful for
@@ -368,3 +368,4 @@ given R process on Linux or Windows, and it can profile R code alongside compile
 -   [High Performance Statistical Computing for Data Intensive Research](https://snoweye.github.io/hpsc/)
 -   [Rth: Parallel R through Thrust](http://heather.cs.ucdavis.edu/~matloff/rth.html)
 -   [Programming with Big Data in R](http://r-pbd.org)
+-   [Applied HPC with R](https://book-hpc.ggvy.cl/)
